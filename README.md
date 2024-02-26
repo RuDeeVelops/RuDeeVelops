@@ -25,11 +25,9 @@
 <table width="1200px">
 
 <tr>
-<td valign="center" width="100%" colspan="2">
 
-<img src="media/dailyLog.svg" alt="1% Better Banner - Rodolfo Fanti" />
+![1% Better Banner - Rodolfo Fanti](media/dailyLog.svg)
 
-</td>
 </tr>
 
 <tr>
