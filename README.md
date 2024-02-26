@@ -41,6 +41,8 @@
 
 <td valign="center" width="70%">
 
+> automatically updated from the [creativedev-log](https://github.com/rudeevelops/creativedev-log)
+
 <!-- START LOG -->
 
 - 🎓 **Learning ||** CSS, Javascript and DOM
