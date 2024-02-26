@@ -19,6 +19,10 @@
 </div>
 
 <div align="center">
+<img src="media/dailyLog_rodolfoFanti.svg" alt="1% Better Banner - Rodolfo Fanti" >
+</div>
+
+<div align="center">
 <table>
 
 <tr>
@@ -28,7 +32,6 @@
 </a>
 
 </td>
-<tdhead><h1>21 February 2024 - Daily log (updates from here)</h1></tdhead>
 <td valign="center" width="50%">
 
 <!-- START LOG -->
