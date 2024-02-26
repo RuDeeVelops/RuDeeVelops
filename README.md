@@ -19,7 +19,7 @@
 </div>
 
 <div align="center">
-<img src="media/dailyLog_rodolfoFanti.svg" alt="1% Better Banner - Rodolfo Fanti" >
+<img src="media/dailyLog_rodolfoFanti.svg" alt="1% Better Banner - Rodolfo Fanti" width= "1280px" />
 </div>
 
 <div align="center">
