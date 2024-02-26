@@ -59,7 +59,7 @@
 
 <tr>
 <td width="20%">
-    <img src="media/filler_rodolfoFanti.svg" alt="1% Better Banner - Rodolfo Fanti" height="100%" />
+    <img src="media/filler_rodolfoFanti.svg" alt="1% Better Banner - Rodolfo Fanti" width="100%" />
 </td>
 
 <td valign="center" width="80%">
