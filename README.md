@@ -31,9 +31,9 @@
 </tr>
 
 <tr>
-<td>
+<td align="center">
 
-<h1>21</h1>
+<h1>21st</h1>
 <h1>Feb</h1>
 <h1>2024</h1>
    
