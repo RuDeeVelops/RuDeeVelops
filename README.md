@@ -20,34 +20,6 @@
 
 </div>
 
-<table>
-  <caption>
-    Council budget (in £) 2018
-  </caption>
-  <thead>
-    <tr>
-      <th scope="col">Items</th>
-      <th scope="col">Expenditure</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Donuts</th>
-      <td>3,000</td>
-    </tr>
-    <tr>
-      <th scope="row">Stationery</th>
-      <td>18,000</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <th scope="row">Totals</th>
-      <td>21,000</td>
-    </tr>
-  </tfoot>
-</table>
-
 <div align="center">
 
 <table width="1200px">
@@ -60,6 +32,10 @@
 
 <tr>
 <td>
+
+<h1>21</h1>
+<h1>Feb</h1>
+<h1>2024</h1>
    
 </td>
 
