@@ -1,0 +1,43 @@
+# The purpose of this action is to automatically update the README file in your profile repository (target_repo) with the latest log entry from a source_repo whenever the "log_updated" event is triggered. The "log_updated" is triggered in the source repository (source_repo) whenever a new log is added, via the dispatch_log_updated_event.yml.
+# The action scans for a specific text pattern in the README file of the source repository and extracts the latest log entry. It then formats the log entry as a Markdown table row and updates the README file in the target repository with the formatted log entry. The action commits and pushes the changes to the target repository.
+# The action replaces the content between "<!-- START LOG -->" and "<!-- END LOG -->" in the README file of the target repository with the formatted log entry.
+
+name: Dynamic Log Entry Update
+
+on:
+  repository_dispatch:
+    types: [log_updated]
+
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v2
+        with:
+          repository: "RuDeeVelops/creativedev-log"
+          path: "source_repo"
+
+      - name: Checkout target repo
+        uses: actions/checkout@v2
+        with:
+          repository: "RuDeeVelops/RuDeeVelops"
+          path: "target_repo"
+
+      - name: Extract latest entry from source repo
+        run: |
+          LATEST_ENTRY=$(awk '/- ####/ {flag=1; line=$0} flag && !NF {print line; flag=0}' source_repo/README.md | tail -1)
+          FORMATTED_ENTRY=$(echo "$LATEST_ENTRY" | awk -F '||' '{print "| " $1 " | " $2 " | " $3 " | " $4 " | " $5 " | " $6 " | " $7 " | " $8 " | " $9 " |"}')
+          echo "FORMATTED_ENTRY=$FORMATTED_ENTRY" >> $GITHUB_ENV
+
+      - name: Update README in target repo
+        run: |
+          sed -i '/<!-- START LOG -->/,/<!-- END LOG -->/c\<!-- START LOG -->\n'"$FORMATTED_ENTRY"'\n<!-- END LOG -->' target_repo/README.md
+
+      - name: Commit and push changes to target repo
+        run: |
+          cd target_repo
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -am "Update README with latest log entry"
+          git push
