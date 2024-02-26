@@ -1,68 +1,67 @@
-<svg fill="none" viewBox="0 0 1200 400" width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="97%" height="100%" x="2%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
+<svg fill="none" viewBox="0 0 1200 100" width="1200" height="100" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: center; justify-content: center; padding:10px 0px; height: 100%; width: 100%">
             <style>
-                :root {
-                    --background-color: rgb(9, 9, 12);
-                    --gradient-color-start: rgba(101, 89, 241, 1);
-                    --gradient-color-end: rgba(236, 136, 54, 1);
-                    --gradient: linear-gradient(to right, var(--gradient-color-start), var(--gradient-color-end));
-                    --box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 8px -1px;
+                /* CSS Reset */
+                html, body, div, span, svg, foreignObject {
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    vertical-align: baseline;
                 }
 
                 .signature {
-                padding-top:25px;
-                padding-bottom:25px;
-                    position: relative;
-                    color: rgba(255, 255, 255, 0.7);
-                    font-family: Roboto, sans-serif;
-                    font-size:50px;
-                    text-align: center;
-                    position: relative;
-                    top: 10px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    transition: all 2s ease;
-                    -webkit-tap-highlight-color: transparent;
-                }
-
-                .signature::before {
-                    content: "";
-                    position: absolute;
-                    top: 0px;
-                    left: 0px;
-                    right: 0px;
                     width: 100%;
-                    height: 100%;
-                    background-position: right bottom;
-                    border-radius: 99px;
-                    background: linear-gradient(var(--background-color), var(--background-color)) padding-box,
-                        var(--gradient) border-box;
-                    box-shadow: var(--box-shadow);
-                    background-size: 200%;
-                    border: 1px solid transparent;
-                    z-index: -1;
-                    opacity: 1;
-                    animation: gradient-move 2s linear infinite;
-                    background-position: left bottom;
-                    background-size: 400%;
+                    height:100%;
+
+                    padding-left:30px;
+                    position: relative;
+                    color: rgba(255, 255, 255, 1);
+                    font-family: "Roboto Black", sans-serif; 
+                    font-size: 60px;
+                    letter-spacing: 2%;
+                    text-align: left;
+                    background: black;
+                    box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 8px -1px;
+                    animation: border-radius .7s ease-in-out forwards 1.2s;
+                    display: flex;
+                    align-items: center;
+                    justify-content: left;
                 }
 
-                @keyframes gradient-move {
+                .signature-text span {
+                    display: inline-block;
+                    animation: fall-in .7s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+                    animation-delay: calc(.1s * var(--i));
+                }
+
+                @keyframes fall-in {
                     0% {
-                        background-position: left bottom;
+                        transform: translateY(-100%);
                     }
-                    50% {
-                        background-position: right bottom;
+                    60% {
+                        transform: translateY(10%);
+                    }
+                    80% {
+                        transform: translateY(-5%);
                     }
                     100% {
-                        background-position: left bottom;
+                        transform: translateY(0%);
+                    }
+                }
+
+                @keyframes border-radius {
+                    0% {
+                        border-radius: 0px;
+                    }
+                    100% {
+                        border-radius: 50px;
                     }
                 }
             </style>
-            <div class="wrapper">
-                <div class="signature">
-                    // Daily Log
+            <div class="signature">
+                <div class="signature-text">
+                    <span style="--i:1">//</span> <span style="--i:2">D</span><span style="--i:3">a</span><span style="--i:4">i</span><span style="--i:5">l</span><span style="--i:6">y</span> <span style="--i:7">L</span><span style="--i:8">o</span><span style="--i:9">g</span>
                 </div>
             </div>
         </div>

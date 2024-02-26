@@ -21,18 +21,14 @@
 </div>
 
 <div align="center">
-	<br>
-		<img src="media/dailyLog.svg" width="1200" height="400" alt="Click to see the source">
-	<br>
-</div>
-
-<div align="center">
 
 <table width="1200px">
 
 <tr>
 <td valign="top" width="100%" colspan="2">
-<img src="media/dailyLog_rodolfoFanti.svg" alt="1% Better Banner - Rodolfo Fanti" width= "100%" />
+<p valign="center">
+<img src="media/dailyLog.svg" alt="1% Better Banner - Rodolfo Fanti" height="100"/>
+</p>
 </td>
 </tr>
 
