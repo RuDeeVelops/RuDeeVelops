@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Welcome to...</h1>
+    <h1>👋 Welcome to...</h1>
 </div>
 
 <p align="center">
@@ -7,14 +7,14 @@
 </p>
 
 <div align="center">
-<ul>
-<h2>
-<li style="list-style-type: none;">I'm a <code>3D-sharpened</code>, <code>design-infused</code> Creative Developer.</li><br>
-<li style="list-style-type: none;">My mission is crafting beautiful experiences across <code>design</code>, <code>3D</code>, <code>UI</code> and <code>code</code>.</li>
-<li style="list-style-type: none;">I spent the last decade as a senior 3d artist in the film/game industry.</li>
-<li style="list-style-type: none;">I recently decided to make <code>frontend development</code> my superpower.</li>
-</h2>
-</ul>
+
+## I'm a `3D-sharpened`, `design-infused` Creative Developer.
+
+### My mission is crafting beautiful experiences across `design`, `3D`, `UI` and `code`.
+
+### I spent the last decade as a senior 3d artist in the film/game industry.
+
+### I recently decided to make `frontend development` my superpower.
 
 </div>
 
