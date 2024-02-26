@@ -25,7 +25,7 @@
 <table width="1200px">
 
 <tr>
-<td valign="top" width="100%" colspan="2">
+<td valign="center" width="100%" colspan="2">
 <p valign="center">
 <img src="media/dailyLog.svg" alt="1% Better Banner - Rodolfo Fanti" />
 </p>
