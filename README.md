@@ -25,10 +25,10 @@
 <table width="1200px">
 
 <tr>
-
-<a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="1% Better Banner - Rodolfo Fanti" /></a>
-
+<a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 </tr>
+
+> automatically updated from the [creativedev-log](https://github.com/rudeevelops/creativedev-log)
 
 <tr>
 <td align="center">
@@ -40,8 +40,6 @@
 </td>
 
 <td valign="center" width="70%">
-
-> automatically updated from the [creativedev-log](https://github.com/rudeevelops/creativedev-log)
 
 <!-- START LOG -->
 
