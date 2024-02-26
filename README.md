@@ -26,7 +26,7 @@
 
 <tr>
 
-![1% Better Banner - Rodolfo Fanti](media/dailyLog.svg)
+<a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="1% Better Banner - Rodolfo Fanti" /></a>
 
 </tr>
 
