@@ -58,8 +58,8 @@
 </tr>
 
 <tr>
-<td width="20%">
-    <img src="media/filler_rodolfoFanti.svg" alt="1% Better Banner - Rodolfo Fanti" width="100%" />
+<td style="background-color: #1C1C1C; width: 20%;"></td>
+   
 </td>
 
 <td valign="center" width="80%">
