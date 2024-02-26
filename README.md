@@ -16,22 +16,24 @@
 
 ### I recently decided to make `frontend development` my superpower.
 
+&nbsp;
+
 </div>
 
 <div align="center">
-<img src="media/dailyLog_rodolfoFanti.svg" alt="1% Better Banner - Rodolfo Fanti" width= "1280px" />
-</div>
+<table width="1200px">
 
-<div align="center">
-<table>
+<tr>
+<td valign="top" width="100%" colspan="2">
+<img src="media/dailyLog_rodolfoFanti.svg" alt="1% Better Banner - Rodolfo Fanti" width= "100%" />
+</td>
+</tr>
 
 <tr>
 <td valign="top" width="50%">
-<a href="#-1-better---daily-log-of-a-creative-dev">
-<img src="media/better_rodolfoFanti_big.svg" alt="1% Better Banner - Rodolfo Fanti" >
-</a>
-
+<img src="media/filler_rodolfoFanti.svg" alt="1% Better Banner - Rodolfo Fanti" max-width="100%" >
 </td>
+
 <td valign="center" width="50%">
 
 <!-- START LOG -->
@@ -112,6 +114,7 @@
 	  <tr>
       <tr>
                 <td align="left"><h3>Design&nbsp;&nbsp;&nbsp;&nbsp;</h3><br></td>
+                <td></td>
                 <td align="center">
                     <img src="https://skillicons.dev/icons?i=figma" width="25" height="25" alt="Figma" /><br>Figma
                 </td>
