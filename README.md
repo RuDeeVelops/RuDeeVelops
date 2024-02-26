@@ -34,7 +34,7 @@
 
 <tr>
 <td valign="top" width="20%">
-<img src="media/filler_rodolfoFanti.svg" alt="1% Better Banner - Rodolfo Fanti" / >
+    <img src="media/filler_rodolfoFanti.svg" alt="1% Better Banner - Rodolfo Fanti" width="100%" />
 </td>
 
 <td valign="center" width="80%">
