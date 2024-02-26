@@ -39,7 +39,7 @@
    
 </td>
 
-<td valign="center" width="80%">
+<td valign="center" width="70%">
 
 <!-- START LOG -->
 
