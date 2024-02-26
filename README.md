@@ -26,9 +26,9 @@
 
 <tr>
 <td valign="center" width="100%" colspan="2">
-<p valign="center">
+
 <img src="media/dailyLog.svg" alt="1% Better Banner - Rodolfo Fanti" />
-</p>
+
 </td>
 </tr>
 
