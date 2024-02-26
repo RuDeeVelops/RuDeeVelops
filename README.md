@@ -20,32 +20,33 @@
 
 </div>
 
-<dl>
-  <dt>
-  
-  <a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="1% Better Banner - Rodolfo Fanti" /></a>
-  </dt>
-  <dd>
-
-  <!-- START LOG -->
-
-> Roses are red, Violets are blue, Coding is my passion, And I love it too..
-
-- 🎓 **Learning ||** CSS, Javascript and DOM
-- 🛠️ **Building ||** [this](https://x.com/3DRudy/status/1757100457065857474?s=20) and a gradient generator
-- 🎨 **Daily Design ||** Vaporwave3
-- 💡 **Big Challenge ||** distribute CSS elements evenly to top, bottom, middle
-- 🏆 **Big Solution ||** use flexbox
-- 🌟 **One Cool Find ||** [Mymind.com](https://access.mymind.com/onboard)
-- 💭 **Idea Cloud ||** `feel the power of learning`
-- 📝 **Blog Entry ||** n/a
-- 🎥 **YouTube Entry ||** n/a
-
-<!-- END LOG -->
-
-</dd>
- 
-</dl>
+<table>
+  <caption>
+    Council budget (in £) 2018
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Items</th>
+      <th scope="col">Expenditure</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Donuts</th>
+      <td>3,000</td>
+    </tr>
+    <tr>
+      <th scope="row">Stationery</th>
+      <td>18,000</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th scope="row">Totals</th>
+      <td>21,000</td>
+    </tr>
+  </tfoot>
+</table>
 
 <div align="center">
 
@@ -58,7 +59,7 @@
 </tr>
 
 <tr>
-<td style="background-color: #1C1C1C; width: 20%;"></td>
+<td>
    
 </td>
 
