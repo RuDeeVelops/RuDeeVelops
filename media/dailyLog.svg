@@ -1,0 +1,120 @@
+<svg fill="none" viewBox="0 0 1200 400" width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                :root {
+                    --font-size: clamp(1rem, 4vw, 1.5rem);
+                    --background-color: rgb(9, 9, 12);
+                    --gradient-color-start: rgba(101, 89, 241, 1);
+                    --gradient-color-end: rgba(236, 136, 54, 1);
+                    --gradient: linear-gradient(to right, var(--gradient-color-start), var(--gradient-color-end));
+                    --box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 8px -1px;
+                }
+
+                body {
+                    height: 100vh;
+                    font-size: var(--font-size);
+                    background-color: var(--background-color);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow-y: hidden;
+                }
+
+                canvas {
+                    max-width: 90vw;
+                    height: auto;
+                    box-shadow: 0 0px 4px rgba(61, 38, 163, 0.349);
+                }
+
+                .signature {
+                    padding: 20px 20px;
+                    position: relative;
+                    color: rgba(255, 255, 255, 0.7);
+                    font-family: Arial, sans-serif;
+                    text-align: center;
+                    position: relative;
+                    top: 10px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    transition: all 2s ease;
+                    -webkit-tap-highlight-color: transparent;
+                }
+
+                .signature::before,
+                .signature::after {
+                    content: "";
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    right: 0px;
+                    width: calc(100% + 2px);
+                    height: calc(100% + 2px);
+                    background-position: right bottom;
+                    border-radius: 99px;
+                    background: linear-gradient(var(--background-color), var(--background-color)) padding-box,
+                        var(--gradient) border-box;
+                    box-shadow: var(--box-shadow);
+                    background-size: 200%;
+                    border: 1px solid transparent;
+                    z-index: -1;
+                }
+
+                .signature::before {
+                    opacity: 1;
+                    animation: gradient-move 2s linear infinite;
+                    background-position: left bottom;
+                    background-size: 400%;
+                }
+
+                .signature::after {
+                    opacity: 0.5;
+                }
+
+                .link {
+                    color: inherit;
+                    text-decoration: none;
+                    transition: opacity 0.3s ease-in-out;
+                    position: relative;
+                }
+
+                .link::before,
+                .link::after {
+                    content: "";
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    right: 0;
+                    height: 2px;
+                    background: var(--gradient);
+                    background-size: 200%;
+                }
+
+                .link::before {
+                    opacity: 1;
+                    animation: gradient-move 1.5s linear infinite;
+                }
+
+                .link::after {
+                    opacity: 0.2;
+                    background-position: right bottom;
+                }
+
+                @keyframes gradient-move {
+                    0% {
+                        background-position: left bottom;
+                    }
+                    50% {
+                        background-position: right bottom;
+                    }
+                    100% {
+                        background-position: left bottom;
+                    }
+                }
+            </style>
+            <div class="signature">
+                // Daily Log
+            </div>
+        </div>
+    </foreignObject>
+</svg>
