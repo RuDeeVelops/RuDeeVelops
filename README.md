@@ -25,7 +25,7 @@
 <!-- START LOG -->
 <table>
     <tr>
-        <strong>27 Feb 2024</strong>
+        <h3>27 Feb 2024</h3>
     </tr>
     <tr>
         <td><strong>🎓 Learning</strong></td>
