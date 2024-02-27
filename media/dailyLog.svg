@@ -2,7 +2,7 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: center; justify-content: center; padding:10px 0px; height: 100%; width: 100%">
             <style>
-    /* CSS Reset */
+                /* CSS Reset */
                 html, body, div, span, svg, foreignObject {
                     margin: 0;
                     padding: 0;
@@ -11,57 +11,153 @@
                     box-sizing: border-box;
                 }
 
-                .signature {
-                    width: 100%;
-                    height:100%;
-                    padding-left:30px;
-                    position: relative;
-                    color: rgba(255, 255, 255, 1);
-                    font-family: "Roboto Black", sans-serif; 
-                    font-size: 60px;
-                    letter-spacing: 2%;
-                    text-align: left;
-                    background: black;
-                    box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 8px -1px;
-                    animation: border-radius .7s ease-in-out forwards 1.2s;
-                    display: flex;
-                    align-items: center;
-                    justify-content: left;
-                }
+                            .signature {
+                width: 100%;
+                height:100%;
+                padding-left:30px;
+                position: relative;
+                color: rgba(255, 255, 255, 1);
+                font-family: "Roboto Black", sans-serif; 
+                font-size: 60px;
+                letter-spacing: 2%;
+                text-align: left;
+                background: black;
+                box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 8px -1px; 
+                animation: border-radius .7s ease-in-out forwards 1.2s;
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                overflow: hidden;
+            }
 
-                .signature-text span {
-                    display: inline-block;
-                    animation: fall-in .7s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
-                    animation-delay: calc(.1s * var(--i));
-                }
+            .signature-text span {
+                display: inline-block;
+                animation: fall-in .7s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+                animation-delay: calc(.1s * var(--i));
+            }
 
-                @keyframes fall-in {
-                    0% {
-                        transform: translateY(-100%);
-                    }
-                    60% {
-                        transform: translateY(10%);
-                    }
-                    80% {
-                        transform: translateY(-5%);
-                    }
-                    100% {
-                        transform: translateY(0%);
-                    }
+            @keyframes fall-in {
+                0% {
+                    transform: translateY(-100%);
                 }
+                60% {
+                    transform: translateY(10%);
+                }
+                80% {
+                    transform: translateY(-5%);
+                }
+                100% {
+                    transform: translateY(0%);
+                }
+            }
 
-                @keyframes border-radius {
-                    0% {
-                        border-radius: 0px;
-                    }
-                    100% {
-                        border-radius: 50px;
-                    }
+            @keyframes border-radius {
+                0% {
+                    border-radius: 0px;
                 }
-            </style>
-            <div class="signature">
-                <div class="signature-text">
-                    <span style="--i:1">//</span> <span style="--i:2">D</span><span style="--i:3">a</span><span style="--i:4">i</span><span style="--i:5">l</span><span style="--i:6">y</span> <span style="--i:7">L</span><span style="--i:8">o</span><span style="--i:9">g</span>
+                100% {
+                    border-radius: 50px;
+                }
+            }
+
+            .ripple-background {
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                width: 50%;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .circle {
+                position: absolute;
+                border-radius: 50%;
+                background: white;
+                animation: ripple 15s infinite;
+                box-shadow: 0px 0px 1px 0px #508fb9;
+            }
+
+          .small {
+    width: 200px;
+    height: 200px;
+    right: -100px;
+    bottom: -100px;
+}
+
+.medium {
+    width: 400px;
+    height: 400px;
+    right: -200px;
+    bottom: -200px;
+}
+
+.large {
+    width: 600px;
+    height: 600px;
+    right: -300px;
+    bottom: -300px;
+}
+
+.xlarge {
+    width: 800px;
+    height: 800px;
+    right: -400px;
+    bottom: -400px;
+}
+
+.xxlarge {
+    width: 1000px;
+    height: 1000px;
+    right: -500px;
+    bottom: -500px;
+}
+
+            .shade1 {
+                opacity: 0.2;
+            }
+
+            .shade2 {
+                opacity: 0.5;
+            }
+
+            .shade3 {
+                opacity: 0.7;
+            }
+
+            .shade4 {
+                opacity: 0.8;
+            }
+
+            .shade5 {
+                opacity: 0.9;
+            }
+
+            @keyframes ripple {
+                0% {
+                    transform: scale(0.8);
+                }
+                50% {
+                    transform: scale(1.2);
+                }
+                100% {
+                    transform: scale(0.8);
+                }
+            }
+        </style>
+        <div class="signature">
+            <div class="ripple-background">
+                <div class="circle xxlarge shade1"></div>
+                <div class="circle xlarge shade2"></div>
+                <div class="circle large shade3"></div>
+                <div class="circle medium shade4"></div>
+                <div class="circle small shade5"></div>
+            </div>
+            <div class="signature-text">
+                <span style="--i:1">//</span> <span style="--i:2">D</span><span style="--i:3">a</span><span style="--i:4">i</span><span style="--i:5">l</span><span style="--i:6">y
+                  <span style="--i:7">L</span><span style="--i:8">o</span><span style="--i:9">g</span>
                 </div>
             </div>
         </div>
