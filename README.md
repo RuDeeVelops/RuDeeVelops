@@ -28,10 +28,7 @@
 <a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 </tr>
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> automatically updated from the [creativedev-log](https://github.com/rudeevelops/creativedev-log)
+`automatically updated from the [creativedev-log](https://github.com/rudeevelops/creativedev-log)`
 
 <tr>
 <td align="center">
