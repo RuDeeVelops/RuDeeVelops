@@ -19,11 +19,11 @@ jobs:
           path: "source_repo"
 
       - name: Checkout target repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
-          repository: "RuDeeVelops/RuDeeVelops"
-          path: "target_repo"
           token: ${{ secrets.PAT }}
+          repository: RuDeeVelops/RuDeeVelops
+          path: target_repo
 
       - name: Extract latest entry from source repo
         run: |
