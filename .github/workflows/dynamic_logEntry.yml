@@ -99,7 +99,7 @@ jobs:
               <td>$YOUTUBE_ENTRY</td>
           </tr>
           </table>"
-          sed -i '/<!-- START LOG -->/,/<!-- END LOG -->/c\<!-- START LOG -->\n'"$FORMATTED_ENTRY"'\n<!-- END LOG -->' target_repo/README.md
+          perl -i -p0e 's|<!-- START LOG -->.*?<!-- END LOG -->|<!-- START LOG -->\n'"$FORMATTED_ENTRY"'\n<!-- END LOG -->|s' target_repo/README.md
 
       - name: Commit and push changes to target repo
         run: |
