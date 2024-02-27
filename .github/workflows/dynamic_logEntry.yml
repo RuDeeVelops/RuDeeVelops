@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: "RuDeeVelops/creativedev-log"
           path: "source_repo"
@@ -23,6 +23,7 @@ jobs:
         with:
           repository: "RuDeeVelops/RuDeeVelops"
           path: "target_repo"
+          token: ${{ secrets.PAT }}
 
       - name: Extract latest entry from source repo
         run: |
@@ -109,4 +110,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -am "Update README with latest log entry"
-          git push
+          git push https://${{ secrets.PAT }}@github.com/RuDeeVelops/RuDeeVelops.git
