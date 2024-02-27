@@ -1,9 +1,9 @@
 <div align="center">
-    <h1>👋 Welcome to...</h1>
+    <h1>👋 You stumbled upon...</h1>
 </div>
 
 <p align="center">
-    <img src="media/loopingGittyMenu_RodolfoFanti.gif" alt="Alt text" style="max-height: 500px;">
+    <img src="media/loopingGittyMenu_RodolfoFanti.gif" alt="Alt text">
 </p>
 
 <div align="center">
