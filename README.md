@@ -24,11 +24,12 @@
 
 <a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 
-`automatically updated from the [creativedev-log](https://github.com/rudeevelops/creativedev-log)`
+> **Note**  
+> automatically updated from the [creativedev-log](https://github.com/rudeevelops/creativedev-log)
 
 <!-- START LOG -->
 
-| []                   | []                                                                                    |
+| &nbsp;               | &nbsp;                                                                                |
 | -------------------- | ------------------------------------------------------------------------------------- |
 | **🎓 Learning**      | CSS, Javascript and DOM                                                               |
 | **🛠️ Building**      | [this](https://x.com/3DRudy/status/1757100457065857474?s=20) and a gradient generator |
