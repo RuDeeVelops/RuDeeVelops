@@ -21,6 +21,7 @@
 
 <div align="center">
 <a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="Daily Log - Rodolfo Fanti" /></a>
+
 <!-- START LOG -->
 <table>
     <tr>
