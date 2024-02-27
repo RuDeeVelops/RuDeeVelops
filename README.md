@@ -6,12 +6,10 @@
     <img src="media/loopingGittyMenu_RodolfoFanti.gif" alt="Alt text">
 </p>
 
-> **Note** <- put two spaces here
-> This is a note
-
 <div align="center">
+<a href="#" onclick="return false;"><img src="media/whoAmI.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 
-## I'm a `3D-sharpened`, `design-infused` Creative Developer.
+### I'm a `3D-sharpened`, `design-infused` Creative Developer.
 
 ### My mission is crafting beautiful experiences across `design`, `3D`, `UI` and `code`.
 
@@ -19,31 +17,53 @@
 
 ### I recently decided to make `frontend development` my superpower.
 
-&nbsp;
-
 </div>
 
 <div align="center">
-
 <a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="Daily Log - Rodolfo Fanti" /></a>
-
-> **Note**  
-> automatically updated from the [creativedev-log](https://github.com/rudeevelops/creativedev-log)
-
 <!-- START LOG -->
-
-| &nbsp;               | &nbsp;                                                                                |
-| -------------------- | ------------------------------------------------------------------------------------- |
-| **🎓 Learning**      | CSS, Javascript and DOM                                                               |
-| **🛠️ Building**      | [this](https://x.com/3DRudy/status/1757100457065857474?s=20) and a gradient generator |
-| **🎨 Daily Design**  | Vaporwave3                                                                            |
-| **💡 Big Challenge** | distribute CSS elements evenly to top, bottom, middle                                 |
-| **🏆 Big Solution**  | use flexbox                                                                           |
-| **🌟 One Cool Find** | [Mymind.com](https://access.mymind.com/onboard)                                       |
-| **💭 Idea Cloud**    | `feel the power of learning`                                                          |
-| **📝 Blog Entry**    | n/a                                                                                   |
-| **🎥 YouTube Entry** | n/a                                                                                   |
-
+<table>
+    <tr>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+    </tr>
+    <tr>
+        <td><strong>🎓 Learning</strong></td>
+        <td>CSS, Javascript and DOM</td>
+    </tr>
+    <tr>
+        <td><strong>🛠️ Building</strong></td>
+        <td><a href="https://x.com/3DRudy/status/1757100457065857474?s=20">this</a> and a gradient generator</td>
+    </tr>
+    <tr>
+        <td><strong>🎨 Daily Design</strong></td>
+        <td>Vaporwave3</td>
+    </tr>
+    <tr>
+        <td><strong>💡 Big Challenge</strong></td>
+        <td>distribute CSS elements evenly to top, bottom, middle</td>
+    </tr>
+    <tr>
+        <td><strong>🏆 Big Solution</strong></td>
+        <td>use flexbox</td>
+    </tr>
+    <tr>
+        <td><strong>🌟 One Cool Find</strong></td>
+        <td><a href="https://access.mymind.com/onboard">Mymind.com</a></td>
+    </tr>
+    <tr>
+        <td><strong>💭 Idea Cloud</strong></td>
+        <td>feel the power of learning</td>
+    </tr>
+    <tr>
+        <td><strong>📝 Blog Entry</strong></td>
+        <td>n/a</td>
+    </tr>
+    <tr>
+        <td><strong>🎥 YouTube Entry</strong></td>
+        <td>n/a</td>
+    </tr>
+</table>
 <!-- END LOG -->
 
 <table>
