@@ -96,18 +96,6 @@
 </tr>
 <tr>
 
-### I'm a `3D-sharpened`, `design-infused` Creative Developer.
-
-### In 2024 my superpower is: `frontend development`.
-
-### My mission is crafting beautiful experiences across `design`, `3D`, `UI` and `code`.
-
-### I worked as a `senior 3d artist` for 15+ films you [probably watched](https://www.imdb.com/name/nm10480418/).
-
-### I launched Digital Clay ( <img valign="bottom" src="https://img.shields.io/youtube/channel/subscribers/UC_JzGeCHnGFHLFWynzX4zhA?label=%20&style" alt="Digital Clay's Youtube Subscribers"> subs) on Youtube, to share [the power of digital art](https://www.youtube.com/digitalclay).
-
-### In love with [Zbrush and Digital Sculpture](https://rodolfofanti.com/) since 2009.
-
 </tr>
 </table>
 <!---------- SECTION: WHO AM I ---------->
