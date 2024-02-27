@@ -21,11 +21,12 @@
 
 <div align="center">
 <a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="Daily Log - Rodolfo Fanti" /></a>
-
 <!-- START LOG -->
 <table>
     <tr>
-        <h3>27 Feb 2024</h3>
+        <td align="center" colspan="2">
+        <h4>27 Feb 2024</h4>
+        </td>
     </tr>
     <tr>
         <td><strong>🎓 Learning</strong></td>
@@ -65,7 +66,6 @@
     </tr>
 </table>
 <!-- END LOG -->
-
 <table>
 <tr>
 <td valign="top" width="50%">
