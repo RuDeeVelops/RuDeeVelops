@@ -28,7 +28,7 @@
 
 <!-- START LOG -->
 
-| &nbsp;               | &nbsp;                                                                                |
+| []                   | []                                                                                    |
 | -------------------- | ------------------------------------------------------------------------------------- |
 | **🎓 Learning**      | CSS, Javascript and DOM                                                               |
 | **🛠️ Building**      | [this](https://x.com/3DRudy/status/1757100457065857474?s=20) and a gradient generator |
