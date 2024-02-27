@@ -7,6 +7,8 @@
 </p>
 
 <div align="center">
+
+<!---------- SECTION: WHO AM I ---------->
 <table>
 <tr>
 <a href="#" onclick="return false;"><img src="media/who.svg" alt="Daily Log - Rodolfo Fanti" /></a>
@@ -15,29 +17,34 @@
 
 ### I'm a `3D-sharpened`, `design-infused` Creative Developer.
 
+### In 2024 my superpower is: `frontend development`.
+
 ### My mission is crafting beautiful experiences across `design`, `3D`, `UI` and `code`.
 
-### I spent the last decade as a senior 3d artist in the film/game industry.
+### I worked as a `senior 3d artist` for 15+ films you [probably watched](https://www.imdb.com/name/nm10480418/).
 
-### I recently decided to make `frontend development` my superpower.
+### I launched Digital Clay ( <img valign="bottom" src="https://img.shields.io/youtube/channel/subscribers/UC_JzGeCHnGFHLFWynzX4zhA?label=%20&style" alt="Digital Clay's Youtube Subscribers"> subs) on Youtube, to share [the power of digital art](https://www.youtube.com/digitalclay).
+
+### In love with [Zbrush and Digital Sculpture](https://rodolfofanti.com/) since 2009.
 
 </tr>
 </table>
-</div>
+<!---------- SECTION: WHO AM I ENDS---------->
 
-<div align="center">
-
+<!---------- SECTION: DAILY LOG ---------->
+<table>
+<tr>
 <a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="Daily Log - Rodolfo Fanti" /></a>
-<code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code>
-
+</tr>
+<tr>
 <!-- START LOG -->
-
-&nbsp;
-
 <table>
     <tr>
         <td align="center" valign ="middle" colspan="2">
-        <h4>27 Feb 2024</h4>
+        <p><strong>27 Feb 2024</strong></p>
+        <code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code>
+        <br/>
+        <br/>
         </td>
     </tr>
     <tr>
@@ -78,6 +85,33 @@
     </tr>
 </table>
 <!-- END LOG -->
+</tr>
+</table>
+<!---------- SECTION: DAILY LOG ENDS ---------->
+
+<!---------- SECTION: WHO AM I ---------->
+<table>
+<tr>
+<a href="#" onclick="return false;"><img src="media/who.svg" alt="Daily Log - Rodolfo Fanti" /></a>
+</tr>
+<tr>
+
+### I'm a `3D-sharpened`, `design-infused` Creative Developer.
+
+### In 2024 my superpower is: `frontend development`.
+
+### My mission is crafting beautiful experiences across `design`, `3D`, `UI` and `code`.
+
+### I worked as a `senior 3d artist` for 15+ films you [probably watched](https://www.imdb.com/name/nm10480418/).
+
+### I launched Digital Clay ( <img valign="bottom" src="https://img.shields.io/youtube/channel/subscribers/UC_JzGeCHnGFHLFWynzX4zhA?label=%20&style" alt="Digital Clay's Youtube Subscribers"> subs) on Youtube, to share [the power of digital art](https://www.youtube.com/digitalclay).
+
+### In love with [Zbrush and Digital Sculpture](https://rodolfofanti.com/) since 2009.
+
+</tr>
+</table>
+<!---------- SECTION: WHO AM I ---------->
+
 <table>
 <tr>
 <td valign="top" width="50%">
@@ -103,9 +137,6 @@
 </td>
 
 </table>
-</div>
-
-<div align="center">
 
 <table>
   <tbody>
@@ -190,8 +221,6 @@
 	  <tr>
   </tbody>
 </table>
-
-</div>
 
 ## 📫 How to reach me
 
