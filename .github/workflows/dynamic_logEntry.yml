@@ -31,15 +31,15 @@ jobs:
           LATEST_ENTRY=$(awk '/- ####/ {flag=1; next} flag && !NF {exit} flag' source_repo/README.md | tail -1)
           IFS='||' read -ra ENTRY <<< "$LATEST_ENTRY"
           DATE="${ENTRY[0]} $YEAR"
-          LEARNING=$(echo "${ENTRY[1]}" | sed 's/^- 🎓 **Learning ||** //')
-          BUILDING=$(echo "${ENTRY[2]}" | sed 's/^- 🛠️ **Building ||** //')
-          DAILY_DESIGN=$(echo "${ENTRY[3]}" | sed 's/^- 🎨 **Daily Design ||** //')
-          BIG_CHALLENGE=$(echo "${ENTRY[4]}" | sed 's/^- 💡 **Big Challenge ||** //')
-          BIG_SOLUTION=$(echo "${ENTRY[5]}" | sed 's/^- 🏆 **Big Solution ||** //')
-          ONE_COOL_FIND=$(echo "${ENTRY[6]}" | sed 's/^- 🌟 **One Cool Find ||** //')
-          IDEA_CLOUD=$(echo "${ENTRY[7]}" | sed 's/^- 💭 **Idea Cloud ||** //')
-          BLOG_ENTRY=$(echo "${ENTRY[8]}" | sed 's/^- 📝 **Blog Entry ||** //')
-          YOUTUBE_ENTRY=$(echo "${ENTRY[9]}" | sed 's/^- 🎥 **YouTube Entry ||** //')
+          LEARNING=$(echo "${ENTRY[1]}" | sed 's/^\\- 🎓 **Learning ||** //')
+          BUILDING=$(echo "${ENTRY[2]}" | sed 's/^\\- 🛠️ **Building ||** //')
+          DAILY_DESIGN=$(echo "${ENTRY[3]}" | sed 's/^\\- 🎨 **Daily Design ||** //')
+          BIG_CHALLENGE=$(echo "${ENTRY[4]}" | sed 's/^\\- 💡 **Big Challenge ||** //')
+          BIG_SOLUTION=$(echo "${ENTRY[5]}" | sed 's/^\\- 🏆 **Big Solution ||** //')
+          ONE_COOL_FIND=$(echo "${ENTRY[6]}" | sed 's/^\\- 🌟 **One Cool Find ||** //')
+          IDEA_CLOUD=$(echo "${ENTRY[7]}" | sed 's/^\\- 💭 **Idea Cloud ||** //')
+          BLOG_ENTRY=$(echo "${ENTRY[8]}" | sed 's/^\\- 📝 **Blog Entry ||** //')
+          YOUTUBE_ENTRY=$(echo "${ENTRY[9]}" | sed 's/^\\- 🎥 **YouTube Entry ||** //')
           echo "DATE=$DATE" >> $GITHUB_ENV
           echo "LEARNING=$LEARNING" >> $GITHUB_ENV
           echo "BUILDING=$BUILDING" >> $GITHUB_ENV
