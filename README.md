@@ -28,8 +28,8 @@
 <a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 </tr>
 
-> **Note**
-> this is a note
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
 
 > automatically updated from the [creativedev-log](https://github.com/rudeevelops/creativedev-log)
 
