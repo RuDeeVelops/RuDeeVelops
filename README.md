@@ -7,7 +7,11 @@
 </p>
 
 <div align="center">
+<table>
+<tr>
 <a href="#" onclick="return false;"><img src="media/who.svg" alt="Daily Log - Rodolfo Fanti" /></a>
+</tr>
+<tr>
 
 ### I'm a `3D-sharpened`, `design-infused` Creative Developer.
 
@@ -17,9 +21,12 @@
 
 ### I recently decided to make `frontend development` my superpower.
 
+</tr>
+</table>
 </div>
 
 <div align="center">
+
 <a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 <code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code>
 
