@@ -22,41 +22,25 @@
 
 <div align="center">
 
-<table width="1200px">
-
-<tr>
 <a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="Daily Log - Rodolfo Fanti" /></a>
-</tr>
 
 `automatically updated from the [creativedev-log](https://github.com/rudeevelops/creativedev-log)`
 
-<tr>
-<td align="center">
-
-<h1>21st</h1>
-<h1>Feb</h1>
-<h1>2024</h1>
-   
-</td>
-
-<td valign="center" width="70%">
-
 <!-- START LOG -->
 
-- 🎓 **Learning ||** CSS, Javascript and DOM
-- 🛠️ **Building ||** [this](https://x.com/3DRudy/status/1757100457065857474?s=20) and a gradient generator
-- 🎨 **Daily Design ||** Vaporwave3
-- 💡 **Big Challenge ||** distribute CSS elements evenly to top, bottom, middle
-- 🏆 **Big Solution ||** use flexbox
-- 🌟 **One Cool Find ||** [Mymind.com](https://access.mymind.com/onboard)
-- 💭 **Idea Cloud ||** `feel the power of learning`
-- 📝 **Blog Entry ||** n/a
-- 🎥 **YouTube Entry ||** n/a
+| &nbsp;               | &nbsp;                                                                                |
+| -------------------- | ------------------------------------------------------------------------------------- |
+| **🎓 Learning**      | CSS, Javascript and DOM                                                               |
+| **🛠️ Building**      | [this](https://x.com/3DRudy/status/1757100457065857474?s=20) and a gradient generator |
+| **🎨 Daily Design**  | Vaporwave3                                                                            |
+| **💡 Big Challenge** | distribute CSS elements evenly to top, bottom, middle                                 |
+| **🏆 Big Solution**  | use flexbox                                                                           |
+| **🌟 One Cool Find** | [Mymind.com](https://access.mymind.com/onboard)                                       |
+| **💭 Idea Cloud**    | `feel the power of learning`                                                          |
+| **📝 Blog Entry**    | n/a                                                                                   |
+| **🎥 YouTube Entry** | n/a                                                                                   |
 
 <!-- END LOG -->
-</td>
-</tr>
-</table>
 
 <table>
 <tr>
