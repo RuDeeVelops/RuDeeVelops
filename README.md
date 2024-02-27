@@ -24,8 +24,9 @@
 <!-- START LOG -->
 <table>
     <tr>
-        <td align="center" colspan="2">
+        <td align="center" valign ="middle" colspan="2">
         <h4>27 Feb 2024</h4>
+        <code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code>
         </td>
     </tr>
     <tr>
