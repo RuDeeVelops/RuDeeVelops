@@ -6,6 +6,9 @@
     <img src="media/loopingGittyMenu_RodolfoFanti.gif" alt="Alt text">
 </p>
 
+> **Note** <- put two spaces here
+> This is a note
+
 <div align="center">
 
 ## I'm a `3D-sharpened`, `design-infused` Creative Developer.
