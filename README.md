@@ -7,7 +7,7 @@
 </p>
 
 <div align="center">
-<a href="#" onclick="return false;"><img src="media/whoAmI.svg" alt="Daily Log - Rodolfo Fanti" /></a>
+<a href="#" onclick="return false;"><img src="media/who.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 
 ### I'm a `3D-sharpened`, `design-infused` Creative Developer.
 
