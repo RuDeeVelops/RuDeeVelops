@@ -21,7 +21,7 @@
 
 <div align="center">
 <a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="Daily Log - Rodolfo Fanti" /></a>
-<code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code>
+<code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code><br/>
 <!-- START LOG -->
 <table>
     <tr>
