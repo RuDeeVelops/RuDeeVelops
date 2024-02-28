@@ -68,7 +68,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 </tr>
 </table>
-<br/>
+
 <!---------- SECTION: WHO AM I ENDS---------->
 
 <!---------- SECTION: DIARY ---------->
@@ -90,7 +90,6 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 </tr>
 </table>
-<br/>
 <!---------- SECTION: DIARY ENDS ---------->
 
 <!---------- SECTION: YOUTUBE ---------->
@@ -115,10 +114,9 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 </tr>
 </table>
-<br/>
 <!---------- SECTION: YOUTUBE ENDS ---------->
 
-<!---------- SECTION: WHO AM I ---------->
+<!---------- SECTION: STATS ---------->
 <table>
 <tr>
 <a href="#" onclick="return false;"><img src="media/stats.svg" alt="Daily Log - Rodolfo Fanti" /></a>
@@ -185,7 +183,6 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 </tr>
 </table>
-<br/>
 <!---------- SECTION: STATS ENDS---------->
 
 ## 🎉 Stats
