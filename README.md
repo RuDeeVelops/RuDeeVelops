@@ -10,19 +10,17 @@
 <a href="#" onclick="return false;"><img src="media/bio.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 </tr>
 <tr>
-<td>
 
-🎨 I'm a `3D-sharpened`, `design-infused` Creative Developer.
+I'm a `3D-sharpened`, `design-infused` Creative Developer.
 
-🎥 I worked as a `senior 3d artist` for 15+ films you [probably watched](https://www.imdb.com/name/nm10480418/).
+I worked as a `senior 3d artist` for 15+ films you [probably watched](https://www.imdb.com/name/nm10480418/).
 
-💻 **2024 it's about:** `frontend development` across `design`, `3D`, `UI` and `code`.
+**2024 it's about:** `frontend development` across `design`, `3D`, `UI` and `code`.
 
-🚀 I launched Digital Clay ( <img valign="middle" src="https://img.shields.io/youtube/channel/subscribers/UC_JzGeCHnGFHLFWynzX4zhA?label=%20&style" alt="Digital Clay's Youtube Subscribers"> subs) to share [the power of digital art](https://youtube.com/digitalclay/).
+I launched Digital Clay ( ![Digital Clay's Youtube Subscribers](https://img.shields.io/youtube/channel/subscribers/UC_JzGeCHnGFHLFWynzX4zhA?label=%20&style) subs) to share [the power of digital art](https://youtube.com/digitalclay/).
 
-🔨 I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
+I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
-</td>
 </tr>
 
 </table>
