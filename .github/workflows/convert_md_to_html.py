@@ -13,14 +13,14 @@ year = re.search(r'## 📅 (\d{4})', md_text).group(1)
 # Extract the latest log entry
 latest_entry = re.search(r'- #### (\d{2}-\w{3} \|\| Day \d{2}.*?)(?=- #### \d{2}-\w{3} \|\| Day \d{2}|<details close>)', md_text, re.DOTALL).group(1)
 
+# Find date
+date = latest_entry.split(' || ')[0]
+
 # Convert the latest log entry to HTML
 html = markdown.markdown(latest_entry)
 
 # Parse HTML
 soup = BeautifulSoup(html, 'html.parser')
-
-# Find date
-date = soup.find('h4').text.split(' || ')[0]
 
 # Create first two rows
 rows = [
