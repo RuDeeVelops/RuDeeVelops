@@ -163,6 +163,7 @@ jobs:
               <td>$YOUTUBE_ENTRY</td>
           </tr>
           </table>"
+          FORMATTED_ENTRY_ESCAPED=$(printf '%s\n' "$FORMATTED_ENTRY" | sed 's:[][\/.^$*]:\\&:g;$!s/$/\\/')
           sed -i "/<!-- START LOG -->/,/<!-- END LOG -->/c\\<!-- START LOG -->\n$FORMATTED_ENTRY\n<!-- END LOG -->" target_repo/README.md
       - name: Commit and push changes to target repo
         run: |
