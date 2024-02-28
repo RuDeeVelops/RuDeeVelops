@@ -29,7 +29,8 @@ rows = [
 
 # Convert list items to table rows
 for li in soup.find_all('li'):
-    key, value = li.text.split(' || ')
+    contents = li.decode_contents()
+    key, value = contents.split(' || ', 1)
     rows.append(f'<tr><td><strong>{key}</strong></td><td>{value}</td></tr>')
 
 # Combine rows into a table
