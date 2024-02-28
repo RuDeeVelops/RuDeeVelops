@@ -23,22 +23,23 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           repository: RuDeeVelops/RuDeeVelops
-          path: target_repo
+          path: "target_repo"
 
       - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: "3.x"
+        uses: actions/setup-python@v5
 
       - name: Install dependencies
         run: pip install beautifulsoup4 markdown
 
+      - name: Set TARGET_REPO_PATH environment variable
+        run: echo "TARGET_REPO_PATH=$(pwd)/target_repo" >> $GITHUB_ENV
+
       - name: Run script
-        run: python target_repo/workflows/convert_md_to_html.py
+        run: python $TARGET_REPO_PATH/.github/workflows/convert_md_to_html.py
 
       - name: Commit and push changes to target repo
         run: |
-          cd target_repo
+          cd $TARGET_REPO_PATH
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -am "Update README with latest log entry"
