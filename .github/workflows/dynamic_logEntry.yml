@@ -27,19 +27,20 @@ jobs:
 
       - name: Extract latest entry from source repo
         run: |
+          sudo apt-get install -y pandoc
           YEAR=$(awk '/## 📅/ {print $3}' source_repo/README.md | tail -1)
           LATEST_ENTRY=$(awk '/- ####/ {flag=1; line=$0} flag && !NF {print line; flag=0}' source_repo/README.md | tail -1)
           IFS='||' read -ra ENTRY <<< "$LATEST_ENTRY"
           DATE="${ENTRY[0]} $YEAR"
-          LEARNING=$(echo "${ENTRY[1]}" | awk -F '**' '{print $3}')
-          BUILDING=$(echo "${ENTRY[2]}" | awk -F '**' '{print $3}')
-          DAILY_DESIGN=$(echo "${ENTRY[3]}" | awk -F '**' '{print $3}')
-          BIG_CHALLENGE=$(echo "${ENTRY[4]}" | awk -F '**' '{print $3}')
-          BIG_SOLUTION=$(echo "${ENTRY[5]}" | awk -F '**' '{print $3}')
-          ONE_COOL_FIND=$(echo "${ENTRY[6]}" | awk -F '**' '{print $3}')
-          IDEA_CLOUD=$(echo "${ENTRY[7]}" | awk -F '**' '{print $3}')
-          BLOG_ENTRY=$(echo "${ENTRY[8]}" | awk -F '**' '{print $3}')
-          YOUTUBE_ENTRY=$(echo "${ENTRY[9]}" | awk -F '**' '{print $3}')
+          LEARNING=$(echo "${ENTRY[1]}" | pandoc -f markdown -t html)
+          BUILDING=$(echo "${ENTRY[2]}" | pandoc -f markdown -t html)
+          DAILY_DESIGN=$(echo "${ENTRY[3]}" | pandoc -f markdown -t html)
+          BIG_CHALLENGE=$(echo "${ENTRY[4]}" | pandoc -f markdown -t html)
+          BIG_SOLUTION=$(echo "${ENTRY[5]}" | pandoc -f markdown -t html)
+          ONE_COOL_FIND=$(echo "${ENTRY[6]}" | pandoc -f markdown -t html)
+          IDEA_CLOUD=$(echo "${ENTRY[7]}" | pandoc -f markdown -t html)
+          BLOG_ENTRY=$(echo "${ENTRY[8]}" | pandoc -f markdown -t html)
+          YOUTUBE_ENTRY=$(echo "${ENTRY[9]}" | pandoc -f markdown -t html)
           echo "DATE=$DATE" >> $GITHUB_ENV
           echo "LEARNING=$LEARNING" >> $GITHUB_ENV
           echo "BUILDING=$BUILDING" >> $GITHUB_ENV
