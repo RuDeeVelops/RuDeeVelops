@@ -30,8 +30,9 @@ rows = [
 # Convert list items to table rows
 for li in soup.find_all('li'):
     contents = li.decode_contents()
-    key, value = contents.split(' || ', 1)
-    rows.append(f'<tr><td><strong>{key}</strong></td><td>{value}</td></tr>')
+    if ' || ' in contents:
+        key, value = contents.split(' || ', 1)
+        rows.append(f'<tr><td><strong>{key}</strong></td><td>{value}</td></tr>')
 
 # Combine rows into a table
 table = '<table>' + ''.join(rows) + '</table>'
