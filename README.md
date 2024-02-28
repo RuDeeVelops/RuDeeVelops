@@ -10,21 +10,19 @@
 <a href="#" onclick="return false;"><img src="media/bio.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 </tr>
 <tr>
+<td>
 
-<dl>
+🎨 I'm a `3D-sharpened`, `design-infused` Creative Developer.
 
-<dt> I'm a <code>3D-sharpened</code>, <code>design-infused</code> Creative Developer. </dt>
+🎥 I worked as a `senior 3d artist` for 15+ films you [probably watched](https://www.imdb.com/name/nm10480418/).
 
-<dt> I worked as a <code>senior 3d artist</code> for 15+ films you <a href="https://www.imdb.com/name/nm10480418/">probably watched</a>.</dt>
+💻 **2024 it's about:** `frontend development` across `design`, `3D`, `UI` and `code`.
 
-<dt> <strong>2024 it's about:</strong> <code>frontend development</code> across <code>design</code>, <code>3D</code>, <code>UI</code> and <code>code</code>.</dt>
+🚀 I launched Digital Clay ( <img valign="middle" src="https://img.shields.io/youtube/channel/subscribers/UC_JzGeCHnGFHLFWynzX4zhA?label=%20&style" alt="Digital Clay's Youtube Subscribers"> subs) to share [the power of digital art](https://youtube.com/digitalclay/).
 
-<dt> I launched Digital Clay ( <img valign="middle" src="https://img.shields.io/youtube/channel/subscribers/UC_JzGeCHnGFHLFWynzX4zhA?label=%20&style" alt="Digital Clay's Youtube Subscribers"> subs) to share <a href="https://youtube.com/digitalclay/">the power of digital art</a>.</dt>
+🔨 I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
-<dt> I did a lot of <a href="https://rodolfofanti.com/">Zbrush since 2009.</dt>
-
-</dl>
-
+</td>
 </tr>
 
 </table>
