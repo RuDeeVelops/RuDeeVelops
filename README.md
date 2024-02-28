@@ -37,6 +37,7 @@
 <a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 </tr>
 <tr>
+<!---------- THE LOG IS AUTOMATICALLY GENERATED VIA ACTIONS DON'T EDIT ---------->
 <!-- START LOG -->
 <table>
     <tr>

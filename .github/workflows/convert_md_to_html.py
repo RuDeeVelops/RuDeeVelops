@@ -1,3 +1,13 @@
+# Part of a Github action chain: 
+    # dynamic_logEntry.yml (in target_repo) https://github.com/RuDeeVelops/RuDeeVelops/blob/main/.github/workflows/dynamic_logEntry.yml
+    # convert_md_to_html.py (in target_repo) https://github.com/RuDeeVelops/RuDeeVelops/blob/main/.github/workflows/convert_md_to_html.py
+    # dispatch_log_updated_event.yml (in source repo) https://github.com/RuDeeVelops/creativedev-log/blob/main/.github/workflows/dispatch_log_updated_event.yml
+
+# This action is triggered by the dispatch_log_updated_event.yml in the source repository.
+# This action reads the README.md file from the source repository, extracts the latest log entry, and converts it to HTML.
+# It expects the README.md file to have a specific structure, and it will not work with other structures.
+# The structure it expects can be seen in the README.md file in the source repository (https://github.com/rudeevelops/creativedev-log)
+
 import os
 import re
 import markdown
@@ -24,7 +34,7 @@ soup = BeautifulSoup(html, 'html.parser')
 
 # Create first two rows
 rows = [
-    f'<tr><td align="center" valign="middle" colspan="2"><p><strong>{date} {year}</strong></p><code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code><br/><br/></td></tr>'
+    f'<tr><td align="center" valign="middle" colspan="2"><p><strong>{date} {year}</strong></p><code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a> via <a href="https://github.com/RuDeeVelops/RuDeeVelops/blob/main/.github/workflows/dynamic_logEntry.yml">dynamic_logEntry.yml</a></code><br/><br/></td></tr>'
 ]
 
 # Define the left part of the table

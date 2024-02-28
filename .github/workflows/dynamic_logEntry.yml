@@ -1,5 +1,10 @@
+# Part of a Github action chain:
+# dynamic_logEntry.yml (in target_repo) https://github.com/RuDeeVelops/RuDeeVelops/blob/main/.github/workflows/dynamic_logEntry.yml
+# convert_md_to_html.py (in target_repo) https://github.com/RuDeeVelops/RuDeeVelops/blob/main/.github/workflows/convert_md_to_html.py
+# dispatch_log_updated_event.yml (in source repo) https://github.com/RuDeeVelops/creativedev-log/blob/main/.github/workflows/dispatch_log_updated_event.yml
+
 # The purpose of this action is to automatically update the README file in your profile repository (target_repo) with the latest log entry from a source_repo whenever the "log_updated" event is triggered. The "log_updated" is triggered in the source repository (source_repo) whenever a new log is added, via the dispatch_log_updated_event.yml.
-# The action scans for a specific text pattern in the README file of the source repository and extracts the latest log entry. It then formats the log entry as a Markdown table and updates the README file in the target repository with the formatted log entry. The action commits and pushes the changes to the target repository.
+# The action scans for a specific text pattern in the README file of the source repository and extracts the latest log entry. It then formats the log entry as HTML table and updates the README file in the target repository with the formatted log entry. The action commits and pushes the changes to the target repository.
 # The action replaces the content between "<!-- START LOG -->" and "<!-- END LOG -->" in the README file of the target repository with the formatted log entry.
 
 name: Dynamic Log Entry Update
