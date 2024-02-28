@@ -31,6 +31,7 @@ rows = [
 for li in soup.find_all('li'):
     key = li.text.split(' || ', 1)[0]
     value = ''.join(str(item) for item in li.contents[1:])  # Convert the rest of the contents back into HTML
+    value = value.replace(f'{key} || ', '', 1)  # Remove the key and ' || ' from the value
     rows.append(f'<tr><td><strong>{key}</strong></td><td>{value}</td></tr>')
 
 # Combine rows into a table
