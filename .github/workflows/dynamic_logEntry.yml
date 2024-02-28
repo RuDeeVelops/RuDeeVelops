@@ -119,52 +119,54 @@ jobs:
         run: |
           FORMATTED_ENTRY="<table>
           <tr>
-              <td align=\"center\" valign =\"middle\" colspan=\"2\">
-              <p><strong>$DATE</strong></p>
-              <code>updates automagically from <a href=\"https://github.com/rudeevelops/creativedev-log\">creativedev-log</a></code>
-              <br/>
-              <br/>
-              </td>
+            <td align=\"center\" valign =\"middle\" colspan=\"2\">
+            <p><strong>$DATE</strong></p>
+            <code>updates automagically from <a href=\"https://github.com/rudeevelops/creativedev-log\">creativedev-log</a></code>
+            <br/>
+            <br/>
+            </td>
           </tr>
           <tr>
-              <td><strong>🎓 Learning</strong></td>
-              <td>$LEARNING</td>
+            <td><strong>🎓 Learning</strong></td>
+            <td>$LEARNING</td>
           </tr>
           <tr>
-              <td><strong>🛠️ Building</strong></td>
-              <td>$BUILDING</td>
+            <td><strong>🛠️ Building</strong></td>
+            <td>$BUILDING</td>
           </tr>
           <tr>
-              <td><strong>🎨 Daily Design</strong></td>
-              <td>$DAILY_DESIGN</td>
+            <td><strong>🎨 Daily Design</strong></td>
+            <td>$DAILY_DESIGN</td>
           </tr>
           <tr>
-              <td><strong>💡 Big Challenge</strong></td>
-              <td>$BIG_CHALLENGE</td>
+            <td><strong>💡 Big Challenge</strong></td>
+            <td>$BIG_CHALLENGE</td>
           </tr>
           <tr>
-              <td><strong>🏆 Big Solution</strong></td>
-              <td>$BIG_SOLUTION</td>
+            <td><strong>🏆 Big Solution</strong></td>
+            <td>$BIG_SOLUTION</td>
           </tr>
           <tr>
-              <td><strong>🌟 One Cool Find</strong></td>
-              <td>$ONE_COOL_FIND</td>
+            <td><strong>🌟 One Cool Find</strong></td>
+            <td>$ONE_COOL_FIND</td>
           </tr>
           <tr>
-              <td><strong>💭 Idea Cloud</strong></td>
-              <td>$IDEA_CLOUD</td>
+            <td><strong>💭 Idea Cloud</strong></td>
+            <td>$IDEA_CLOUD</td>
           </tr>
           <tr>
-              <td><strong>📝 Blog Entry</strong></td>
-              <td>$BLOG_ENTRY</td>
+            <td><strong>📝 Blog Entry</strong></td>
+            <td>$BLOG_ENTRY</td>
           </tr>
           <tr>
-              <td><strong>🎥 YouTube Entry</strong></td>
-              <td>$YOUTUBE_ENTRY</td>
+            <td><strong>🎥 YouTube Entry</strong></td>
+            <td>$YOUTUBE_ENTRY</td>
           </tr>
           </table>"
-          FORMATTED_ENTRY_ESCAPED=$(printf '%s\n' "$FORMATTED_ENTRY" | sed -e 's/[\/&<>]/\\&/g')
+          FORMATTED_ENTRY_ESCAPED=$(printf '%s\n' "$FORMATTED_ENTRY" | sed -e ':a' -e 'N' -e '$!ba' -e 's/[\/&<>]\n/\\&/g')
+          FORMATTED_ENTRY_ESCAPED=${FORMATTED_ENTRY_ESCAPED//$'\n'/\\n}
           sed -i "/<!-- START LOG -->/,/<!-- END LOG -->/c\\<!-- START LOG -->\n$FORMATTED_ENTRY_ESCAPED\n<!-- END LOG -->" target_repo/README.md
+          FORMATTED_ENTRY_ESCAPED=${FORMATTED_ENTRY_ESCAPED//\\n/$'\n'}
       - name: Commit and push changes to target repo
         run: |
           cd target_repo
