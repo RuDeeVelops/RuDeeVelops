@@ -29,15 +29,15 @@ rows = [
 
 # Define the left part of the table
 left_parts = [
-    '🎓 <strong>Learning ||</strong>',
-    '🛠️ <strong>Building ||</strong>',
-    '🎨 <strong>Daily Design ||</strong>',
-    '💡 <strong>Big Challenge ||</strong>',
-    '🏆 <strong>Big Solution ||</strong>',
-    '🌟 <strong>One Cool Find ||</strong>',
-    '💭 <strong>Idea Cloud ||</strong>',
-    '📝 <strong>Blog Entry ||</strong>',
-    '🎥 <strong>YouTube Entry ||</strong>'
+    '🎓 <strong>Learning</strong>',
+    '🛠️ <strong>Building</strong>',
+    '🎨 <strong>Daily Design</strong>',
+    '💡 <strong>Big Challenge</strong>',
+    '🏆 <strong>Big Solution</strong>',
+    '🌟 <strong>One Cool Find</strong>',
+    '💭 <strong>Idea Cloud</strong>',
+    '📝 <strong>Blog Entry</strong>',
+    '🎥 <strong>YouTube Entry</strong>'
 ]
 
 # Convert list items to table rows
