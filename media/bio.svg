@@ -19,11 +19,13 @@
                     color: rgba(255, 255, 255, 1);
                     font-family: "Roboto Black", sans-serif; 
                     font-size: 60px;
+                        text-transform: uppercase;
+
                     letter-spacing: 2%;
                     text-align: left;
                     background: black;
                     box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 8px -1px;
-                    animation: accordion 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards 1s, border-radius .7s ease-in-out forwards 1.7s;
+                    animation: accordion 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, border-radius .7s ease-in-out forwards 1.7s;
                     display: flex;
                     align-items: center;
                     justify-content: left;
@@ -33,22 +35,14 @@
                     visibility: hidden;
                     display: inline-block;
                     animation: fall-in .7s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; 
-                    animation-delay: calc(3s + .1s * var(--i));
+                    animation-delay: calc(4s + .1s * var(--i));
                 }
 
                 @keyframes accordion {
                     0% {
                         width: 0;
                     }
-                    25% {
-                        width: 70%;
-                    }
-                    50% {
-                        width: 80%;
-                    }
-                    75% {
-                        width: 70%;
-                    }
+                  
                     100% {
                         width: 100%;
                     }
@@ -57,16 +51,17 @@
                 @keyframes fall-in {
                     0% {
                         visibility: visible;
-                        transform: translateX(-100%) rotate(0deg); 
+                        color: black;
+                        transform: translateX(400%) rotate(330deg);
                     }
-                    60% {
-                        transform: translateX(0%) rotate(365deg);
+                    50% {
+                        color: white;
+                        transform: translateX(0%) rotate(400deg);
                     }
-                    65% {
-                        transform: translateX(0%) rotate(355deg);
-                    }
+                    
                     100% {
                         visibility: visible;
+                        color: white;
                         transform: translateX(0%) rotate(360deg);
                     }
                 }
@@ -82,7 +77,7 @@
             </style>
             <div class="signature">
                 <div class="signature-text">
-                    <span style="--i:1">//</span> <span style="--i:2">W</span><span style="--i:3">h</span><span style="--i:4">o</span> <span style="--i:5">a</span><span style="--i:6">m</span> <span style="--i:7">I</span>
+                    <span style="--i:1">//</span> <span style="--i:2">B</span><span style="--i:3">I</span><span style="--i:4">O</span>
                 </div>
             </div>
         </div>
