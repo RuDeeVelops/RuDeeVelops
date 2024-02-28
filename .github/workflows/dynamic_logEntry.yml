@@ -29,7 +29,7 @@ jobs:
         run: |
           sudo apt-get install -y pandoc
           YEAR=$(awk '/## 📅/ {print $3}' source_repo/README.md | tail -1)
-          LATEST_ENTRY=$(awk '/- ####/ {flag=1; line=$0} flag && !NF {print line; flag=0}' source_repo/README.md | tail -1)
+          LATEST_ENTRY=$(awk '/- ####/ {if (NR!=1) {print s} ; s=$0; next} {s=s"\n"$0} END {print s}' source_repo/README.md | tail -1)
           IFS='||' read -ra ENTRY <<< "$LATEST_ENTRY"
           DATE="${ENTRY[0]} $YEAR"
           LEARNING=$(echo "${ENTRY[1]}" | pandoc -f markdown -t html)
