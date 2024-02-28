@@ -1,7 +1,43 @@
+<!---------- RESOURCES USED FOR THIS README.MD ---------->
+
+Awesome Profiles: https://github.com/abhisheknaiidu/awesome-github-profile-readme
+Social Badges: https://home.aveek.io/GitHub-Profile-Badges/
+Skill Table Idea: https://github.com/rzashakeri/rzashakeri/blob/main/README.md
+Skill Badges: https://github.com/tandpfun/skill-icons#readme
+Animated Skill Badges: https://techstack-generator.vercel.app/
+Youtube Stats Card: https://github.com/dhyeythumar/youtube-stats-card/tree/main
+
 <p align="center">
     <img src="media/loopingGittyMenu_RodolfoFanti.gif" alt="Alt text">
 </p>
 
+<div align="center">
+<a href="https://www.linkedin.com/in/rodolfofanti/">
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white" height="28">
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://dribbble.com/digitalclay">
+        <img src="https://img.shields.io/badge/Dribbble-EA4C89.svg?style=for-the-badge&logo=Dribbble&logoColor=white" height="28">
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://twitter.com/3DRudy">
+        <img src="https://img.shields.io/badge/@3DRudy-000000.svg?style=for-the-badge&logo=Twitter&logoColor=white" height="28">
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.youtube.com/digitalclay">
+        <img src="https://img.shields.io/badge/@DigitalClay-FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" height="28">
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://bento.me/3drudy">
+        <img src=https://img.shields.io/badge/Bento-768CFF.svg?style=for-the-badge&logo=Bento&logoColor=white height="28">
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://codepen.io/3DRudy">
+        <img src=https://img.shields.io/badge/CodePen-000000.svg?style=for-the-badge&logo=CodePen&logoColor=white height="28">
+    </a>
+</div>
+<br/>
+<br/>
 <div align="center">
 
 <!---------- SECTION: WHO AM I ---------->
@@ -10,6 +46,10 @@
 <a href="#" onclick="return false;"><img src="media/bio.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 </tr>
 <tr>
+
+<details>
+<summary> <strong>Click here to expand/collapse</strong> </summary>
+<br/>
 
 I'm a `3D-sharpened`, `design-infused` Creative Developer.
 
@@ -21,69 +61,34 @@ I launched Digital Clay ( ![Digital Clay's Youtube Subscribers](https://img.shie
 
 I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
-</tr>
+</details>
 
+</tr>
 </table>
+<br/>
 <!---------- SECTION: WHO AM I ENDS---------->
 
-<!---------- SECTION: DAILY LOG ---------->
+<!---------- SECTION: DIARY ---------->
 <table>
 <tr>
-<a href="#" onclick="return false;"><img src="media/dailyLog.svg" alt="Daily Log - Rodolfo Fanti" /></a>
+<a href="#" onclick="return false;"><img src="media/diary.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 </tr>
 <tr>
-<!---------- THE LOG IS AUTOMATICALLY GENERATED VIA ACTIONS DON'T EDIT ---------->
+
+<details>
+<summary> <strong>Click here to expand/collapse</strong> </summary>
+<br/>
+<!--- GENERATED VIA ACTIONS DON'T EDIT --->
 <!-- START LOG -->
-<table>
-    <tr>
-        <td align="center" valign ="middle" colspan="2">
-        <p><strong>27 Feb 2024</strong></p>
-        <code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code>
-        <br/>
-        <br/>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>🎓 Learning</strong></td>
-        <td>CSS, Javascript and DOM</td>
-    </tr>
-    <tr>
-        <td><strong>🛠️ Building</strong></td>
-        <td><a href="https://x.com/3DRudy/status/1757100457065857474?s=20">this</a> and a gradient generator</td>
-    </tr>
-    <tr>
-        <td><strong>🎨 Daily Design</strong></td>
-        <td>Vaporwave3</td>
-    </tr>
-    <tr>
-        <td><strong>💡 Big Challenge</strong></td>
-        <td>distribute CSS elements evenly to top, bottom, middle</td>
-    </tr>
-    <tr>
-        <td><strong>🏆 Big Solution</strong></td>
-        <td>use flexbox</td>
-    </tr>
-    <tr>
-        <td><strong>🌟 One Cool Find</strong></td>
-        <td><a href="https://access.mymind.com/onboard">Mymind.com</a></td>
-    </tr>
-    <tr>
-        <td><strong>💭 Idea Cloud</strong></td>
-        <td>feel the power of learning</td>
-    </tr>
-    <tr>
-        <td><strong>📝 Blog Entry</strong></td>
-        <td>n/a</td>
-    </tr>
-    <tr>
-        <td><strong>🎥 YouTube Entry</strong></td>
-        <td>n/a</td>
-    </tr>
-</table>
+
 <!-- END LOG -->
+
+</details>
+
 </tr>
 </table>
-<!---------- SECTION: DAILY LOG ENDS ---------->
+<br/>
+<!---------- SECTION: DIARY ENDS ---------->
 
 <!---------- SECTION: YOUTUBE ---------->
 <table>
@@ -92,42 +97,29 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 </tr>
 <tr>
 
+<details>
+<summary> <strong>Click here to expand/collapse</strong> </summary>
+<br/>
+<!--- GENERATED VIA ACTIONS DON'T EDIT --->
+<!-- BEGIN YOUTUBE-CARDS -->
+
+<!-- END YOUTUBE-CARDS -->
+
+[![Digital Clay's youtube stats](https://youtube-stats-card.vercel.app/api?channelid=UC_JzGeCHnGFHLFWynzX4zhA&title_color=ffffff&icon_color=ffffff&text_color=ffffff&bg_color=000000&custom_title=Digital%20Clay's%20Youtube)](https://www.youtube.com/channel/UC_JzGeCHnGFHLFWynzX4zhA)
+
+</details>
+
 </tr>
 </table>
-<!---------- SECTION: YOUTUBE ENDS---------->
+<br/>
+<!---------- SECTION: YOUTUBE ENDS ---------->
+
+<!---------- SECTION: YOUTUBE ---------->
 
 <!---------- SECTION: WHO AM I ---------->
-<table>
-<tr>
-<a href="#" onclick="return false;"><img src="media/who.svg" alt="Daily Log - Rodolfo Fanti" /></a>
-</tr>
-<tr>
-
-</tr>
-</table>
-<!---------- SECTION: WHO AM I ---------->
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-### 📺 My Latest YouTube Videos
-
-<!-- YOUTUBE:START -->
-
-- [I Cannot Believe How Powerful This Headless CMS Is!](https://www.youtube.com/watch?v=43Eznupydng)
-- [I Cannot Believe How Good This VS Code AI Coding Assistant Is!](https://www.youtube.com/watch?v=TALwI3J4asY)
-- [Eddie Jaoude Explains &amp; Talks about MDX Documentation](https://www.youtube.com/watch?v=ZTX9-_MyaIw)
-- [React&#39;s Future: Tejas Kumar on Server Components](https://www.youtube.com/watch?v=zn-nFWDxyiw)
-- [Collaboration is HARD! You Need this Web Development Workflow](https://www.youtube.com/watch?v=DZV33RjeXW0)
-<!-- YOUTUBE:END -->
-
-➡️ [more videos...](https://youtube.com/codestackr)
 
 </td>
 <td valign="top" width="50%">
-
-[![Digital Clay's youtube stats](https://youtube-stats-card.vercel.app/api?channelid=UC_JzGeCHnGFHLFWynzX4zhA&custom_title=Digital%20Clay's%20Youtube)](https://www.youtube.com/channel/UC_JzGeCHnGFHLFWynzX4zhA)
 
 </td>
 
