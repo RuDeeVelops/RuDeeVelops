@@ -17,7 +17,8 @@ latest_entry = re.search(r'- #### (\d{2}-\w{3} \|\| Day \d{2}.*?)(?=- #### \d{2}
 date = latest_entry.split(' || ')[0]
 
 # Convert the latest log entry to HTML
-html = markdown.markdown(latest_entry)
+md = markdown.Markdown(extras=["link-patterns", "code-friendly"])
+html = md.convert(latest_entry)
 
 # Parse HTML
 soup = BeautifulSoup(html, 'html.parser')
