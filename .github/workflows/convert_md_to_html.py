@@ -27,13 +27,24 @@ rows = [
     f'<tr><td align="center" valign="middle" colspan="2"><p><strong>{date} {year}</strong></p><code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code><br/><br/></td></tr>'
 ]
 
+# Define the left part of the table
+left_parts = [
+    '🎓 <strong>Learning ||</strong>',
+    '🛠️ <strong>Building ||</strong>',
+    '🎨 <strong>Daily Design ||</strong>',
+    '💡 <strong>Big Challenge ||</strong>',
+    '🏆 <strong>Big Solution ||</strong>',
+    '🌟 <strong>One Cool Find ||</strong>',
+    '💭 <strong>Idea Cloud ||</strong>',
+    '📝 <strong>Blog Entry ||</strong>',
+    '🎥 <strong>YouTube Entry ||</strong>'
+]
+
 # Convert list items to table rows
-for li in soup.find_all('li'):
+for i, li in enumerate(soup.find_all('li')):
     contents = ''.join(str(item) for item in li.contents)
-    parts = contents.split(' || ', 1)
-    left_part = parts[0]
-    right_part = parts[1] if len(parts) > 1 else ''  # Assign the second part to right_part if it exists, otherwise assign an empty string
-    rows.append(f'<tr><td><strong>{left_part}</strong></td><td>{right_part}</td></tr>')
+    right_part = contents.split('||</strong> ', 1)[1] if '||</strong> ' in contents else contents  # Split the string at '||</strong> ' and assign the second part to right_part if it exists, otherwise assign the whole string
+    rows.append(f'<tr><td>{left_parts[i]}</td><td>{right_part}</td></tr>')
 
 # Combine rows into a table
 table = '<table>' + ''.join(rows) + '</table>'
