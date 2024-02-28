@@ -34,7 +34,7 @@ soup = BeautifulSoup(html, 'html.parser')
 
 # Create first two rows
 rows = [
-    f'<tr><td align="center" valign="middle" colspan="2"><p><strong>{date} {year}</strong></p><code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a> via <a href="https://github.com/RuDeeVelops/RuDeeVelops/blob/main/.github/workflows/dynamic_logEntry.yml">dynamic_logEntry.yml</a></code><br/><br/></td></tr>'
+    f'<tr><td align="center" valign="middle" colspan="2"><p><strong>{date} {year}</strong></p><code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code><br/><br/></td></tr>'
 ]
 
 # Define the left part of the table
