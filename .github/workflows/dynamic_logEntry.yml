@@ -1,6 +1,70 @@
 # The purpose of this action is to automatically update the README file in your profile repository (target_repo) with the latest log entry from a source_repo whenever the "log_updated" event is triggered. The "log_updated" is triggered in the source repository (source_repo) whenever a new log is added, via the dispatch_log_updated_event.yml.
 # The action scans for a specific text pattern in the README file of the source repository and extracts the latest log entry. It then formats the log entry as a Markdown table and updates the README file in the target repository with the formatted log entry. The action commits and pushes the changes to the target repository.
 # The action replaces the content between "<!-- START LOG -->" and "<!-- END LOG -->" in the README file of the target repository with the formatted log entry.
+# The action expects this log entry from the source repo:
+#  ## 📅 2024
+#
+#   <details open><summary>February</summary>
+#
+#  - #### 27-Feb || Day 16
+#
+#    - 🎓 **Learning ||** Github Actions
+#    - 🛠️ **Building ||** [this](https://x.com/3DRudy/status/1757100457065857474?s=20) and a gradient generator
+#    - 🎨 **Daily Design ||** N/A
+#    - 💡 **Big Challenge ||** test5
+#    - 🏆 **Big Solution ||** test
+#    - 🌟 **One Cool Find ||** [Mymind.com](https://access.mymind.com/onboard)
+#    - 💭 **Idea Cloud ||** `feel the power of learning`
+#    - 📝 **Blog Entry ||** n/a
+#    - 🎥 **YouTube Entry ||** n/a
+
+# The action will format the previous log entry as:
+# <table>
+# <tr>
+#     <td align="center" valign ="middle" colspan="2">
+#     <p><strong>27-Feb 2024</strong></p>
+#     <code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code>
+#     <br/>
+#     <br/>
+#     </td>
+# </tr>
+# <tr>
+#     <td><strong>🎓 Learning</strong></td>
+#     <td>Github Actions</td>
+# </tr>
+# <tr>
+#     <td><strong>🛠️ Building</strong></td>
+#     <td><a href="https://x.com/3DRudy/status/1757100457065857474?s=20">this</a> and a gradient generator</td>
+# </tr>
+# <tr>
+#     <td><strong>🎨 Daily Design</strong></td>
+#     <td>N/A</td>
+# </tr>
+# <tr>
+#     <td><strong>💡 Big Challenge</strong></td>
+#     <td>test4</td>
+# </tr>
+# <tr>
+#     <td><strong>🏆 Big Solution</strong></td>
+#     <td>test</td>
+# </tr>
+# <tr>
+#     <td><strong>🌟 One Cool Find</strong></td>
+#     <td><a href="https://access.mymind.com/onboard">Mymind.com</a></td>
+# </tr>
+# <tr>
+#     <td><strong>💭 Idea Cloud</strong></td>
+#     <td><code>feel the power of learning</code></td>
+# </tr>
+# <tr>
+#     <td><strong>📝 Blog Entry</strong></td>
+#     <td>n/a</td>
+# </tr>
+# <tr>
+#     <td><strong>🎥 YouTube Entry</strong></td>
+#     <td>n/a</td>
+# </tr>
+# </table>
 
 name: Dynamic Log Entry Update
 
@@ -29,7 +93,7 @@ jobs:
         run: |
           sudo apt-get install -y pandoc
           YEAR=$(awk '/## 📅/ {print $3}' source_repo/README.md | tail -1)
-          LATEST_ENTRY=$(awk '/- ####/ {if (NR!=1) {print s} ; s=$0; next} {s=s"\n"$0} END {print s}' source_repo/README.md | tail -1)
+          LATEST_ENTRY=$(awk '/- ####/ {flag=1;next} /<details/ {flag=0} flag' source_repo/README.md | tail -9)
           IFS='||' read -ra ENTRY <<< "$LATEST_ENTRY"
           DATE="${ENTRY[0]} $YEAR"
           LEARNING=$(echo "${ENTRY[1]}" | pandoc -f markdown -t html)
@@ -99,10 +163,7 @@ jobs:
               <td>$YOUTUBE_ENTRY</td>
           </tr>
           </table>"
-          sed -i '/<!-- START LOG -->/,/<!-- END LOG -->/d' target_repo/README.md
-          echo "<!-- START LOG -->" >> target_repo/README.md
-          echo "$FORMATTED_ENTRY" >> target_repo/README.md
-          echo "<!-- END LOG -->" >> target_repo/README.md
+          sed -i "/<!-- START LOG -->/,/<!-- END LOG -->/c\\<!-- START LOG -->\n$FORMATTED_ENTRY\n<!-- END LOG -->" target_repo/README.md
       - name: Commit and push changes to target repo
         run: |
           cd target_repo
