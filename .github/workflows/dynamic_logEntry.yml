@@ -34,7 +34,7 @@ jobs:
         run: pip install beautifulsoup4 markdown
 
       - name: Run script
-        run: python convert_md_to_html.py
+        run: python .github/workflows/convert_md_to_html.py
 
       - name: Commit and push changes to target repo
         run: |
