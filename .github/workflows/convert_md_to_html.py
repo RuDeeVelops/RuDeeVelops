@@ -29,10 +29,11 @@ rows = [
 
 # Convert list items to table rows
 for li in soup.find_all('li'):
-    parts = li.text.split(' || ', 1)
-    key = parts[0]
-    value = ''.join(str(item) for item in li.contents).replace(key + ' || ', '')  # Convert the rest of the contents back into HTML and remove the key
-    rows.append(f'<tr><td><strong>{key}</strong></td><td>{value}</td></tr>')
+    contents = ''.join(str(item) for item in li.contents)
+    parts = contents.split(' || ', 1)
+    left_part = parts[0]
+    right_part = parts[1] if len(parts) > 1 else ''  # Assign the second part to right_part if it exists, otherwise assign an empty string
+    rows.append(f'<tr><td><strong>{left_part}</strong></td><td>{right_part}</td></tr>')
 
 # Combine rows into a table
 table = '<table>' + ''.join(rows) + '</table>'
