@@ -21,14 +21,11 @@ CSS in SVGs for Markdown trick: https://github.com/sindresorhus/css-in-readme-li
 <div align="center">
 
 <!---------- SECTION: WHO AM I ---------->
-<table>
-<tr>
+
 <a href="#" onclick="return false;"><img src="media/bio.svg" alt="Daily Log - Rodolfo Fanti" /></a>
-</tr>
-<tr>
 
 <details>
-<summary> <strong>Click here to expand/collapse</strong> </summary>
+<summary> <strong><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" /></strong> </summary>
 <br/>
 
 I'm a `3D-sharpened`, `design-infused` Creative Developer.
@@ -42,21 +39,16 @@ I launched Digital Clay ( ![Digital Clay's Youtube Subscribers](https://img.shie
 I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 </details>
-
-</tr>
-</table>
-
+<br/>
+<br/>
 <!---------- SECTION: WHO AM I ENDS---------->
 
 <!---------- SECTION: DIARY ---------->
-<table>
-<tr>
+
 <a href="#" onclick="return false;"><img src="media/diary.svg" alt="Daily Log - Rodolfo Fanti" /></a>
-</tr>
-<tr>
 
 <details>
-<summary> <strong>Click here to expand/collapse</strong> </summary>
+<summary> <strong><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" /></strong> </summary>
 <br/>
 <!--- GENERATED VIA ACTIONS DON'T EDIT --->
 <!-- START LOG -->
@@ -64,20 +56,16 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 <!-- END LOG -->
 
 </details>
-
-</tr>
-</table>
+<br/>
+<br/>
 <!---------- SECTION: DIARY ENDS ---------->
 
 <!---------- SECTION: YOUTUBE ---------->
-<table>
-<tr>
+
 <a href="#" onclick="return false;"><img src="media/youtube.svg" alt="Daily Log - Rodolfo Fanti" /></a>
-</tr>
-<tr>
 
 <details>
-<summary> <strong>Click here to expand/collapse</strong> </summary>
+<summary> <strong><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" /></strong> </summary>
 <br/>
 <!--- GENERATED VIA ACTIONS DON'T EDIT --->
 
@@ -88,9 +76,8 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 <!-- END YOUTUBE-CARDS -->
 
 </details>
-
-</tr>
-</table>
+<br/>
+<br/>
 <!---------- SECTION: YOUTUBE ENDS ---------->
 
 <!---------- SECTION: STATS ---------->
@@ -98,7 +85,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 <a href="#" onclick="return false;"><img src="media/stats.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 
 <details>
-<summary> <strong>Click here to expand/collapse</strong> </summary>
+<summary> <strong><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" /></strong> </summary>
 <div id="tech">
 <table width="500px">
 <tr>
@@ -157,7 +144,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 <table width="700px">
     <tr>
-        <td colspan="2">
+        <td colspan="2" align="center">
             <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rudeevelops&theme=apprentice"/>
         </td>
     </tr>
@@ -172,6 +159,8 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 </table>
 
 </details>
+<br/>
+<br/>
 <!---------- SECTION: STATS ENDS---------->
 
 </div>
