@@ -23,33 +23,6 @@ CSS in SVGs for Markdown trick: https://github.com/sindresorhus/css-in-readme-li
 <!---------- SECTION: WHO AM I ---------->
 <table>
 <tr>
-<div align="center">
-<a href="https://www.linkedin.com/in/rodolfofanti/">
-        <img src="https://img.shields.io/badge/LinkedIn-000000.svg?style=for-the-badge&logo=LinkedIn&logoColor=ffffff" height="28">
-    </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://dribbble.com/digitalclay">
-        <img src="https://img.shields.io/badge/Dribbble-000000.svg?style=for-the-badge&logo=Dribbble&logoColor=ffffff" height="28">
-    </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://twitter.com/3DRudy">
-        <img src="https://img.shields.io/badge/@3DRudy-000000.svg?style=for-the-badge&logo=Twitter&logoColor=ffffff" height="28">
-    </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://www.youtube.com/digitalclay">
-        <img src="https://img.shields.io/badge/@DigitalClay-000000.svg?style=for-the-badge&logo=YouTube&logoColor=ffffff" height="28">
-    </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://bento.me/3drudy">
-        <img src=https://img.shields.io/badge/Bento-000000.svg?style=for-the-badge&logo=Bento&logoColor=ffffff height="28">
-    </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://codepen.io/3DRudy">
-        <img src=https://img.shields.io/badge/CodePen-000000.svg?style=for-the-badge&logo=CodePen&logoColor=ffffff height="28">
-    </a>
-</div>
-</tr>
-<tr>
 <a href="#" onclick="return false;"><img src="media/bio.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 </tr>
 <tr>
@@ -126,63 +99,63 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 <details>
 <summary> <strong>Click here to expand/collapse</strong> </summary>
-<br/>
 <div id="tech">
-<table>
+<table width="500px">
 <tr>
-        <td align="left"><h3>Frontend&nbsp;&nbsp;&nbsp;&nbsp;</h3><br></td>
-        <td align="center">
+        <td align="left" valign="middle"><h3>Frontend&nbsp;&nbsp;&nbsp;&nbsp;</h3><br></td>
+        <td align="center" width="50">
             <img src="https://skillicons.dev/icons?i=html" width="25" height="25" alt="HTML" /><br>HTML
         </td>
-        <td align="center">
+        <td align="center" width="50">
             <img src="https://skillicons.dev/icons?i=css" width="25" height="25" alt="css" /><br>CSS
         </td>
-        <td align="center">
+        <td align="center" width="50">
             <img src="https://skillicons.dev/icons?i=tailwind" width="25" height="25"/><br>Tailwind
         </td>
-        <td align="center">
+        <td align="center" width="50">
             <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="javascript" width="25" height="25" /><br>Javascript
         </td>
-        <td align="center">
+        <td align="center" width="50">
             <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="react" width="25" height="25" /><br>ReactJS
         </td>
-        <td align="center">
+        <td align="center" width="50">
             <img src="https://skillicons.dev/icons?i=nextjs" width="25" height="25"/><br>NextJS
         </td>
-        <td align="center">
+        <td align="center" width="50">
             <img src="https://avatars.githubusercontent.com/u/2386673?v=4" width="25" height="25"/><br>GSAP
         </td>
-        <td align="center">
+        <td align="center" width="50">
             <img src="https://skillicons.dev/icons?i=threejs" width="25" height="25"/><br>ThreeJS
         </td>
 </tr>
 <tr>
-        <td align="left"><h3>Design&nbsp;&nbsp;&nbsp;&nbsp;</h3><br></td>
+        <td align="left" valign="middle"><h3>Design&nbsp;&nbsp;&nbsp;&nbsp;</h3><br></td>
         <td></td>
-        <td align="center">
+        <td align="center" width="50">
             <img src="https://skillicons.dev/icons?i=figma" width="25" height="25" alt="Figma" /><br>Figma
         </td>
-        <td align="center">
+        <td align="center" width="50">
             <img src="https://skillicons.dev/icons?i=webflow" width="25" height="25" alt="Webflow" /><br>Webflow
         </td>
-        <td align="center">
+        <td align="center" width="50">
             <img src="https://avatars.githubusercontent.com/u/58453772?s=200&v=4" width="25" height="25"/><br>Rive
         </td>
-        <td align="center">
+        <td align="center" width="50">
             <img src="https://avatars.githubusercontent.com/u/4542585?s=280&v=4" alt="Photoshop" width="25" height="25" /><br>Photoshop
         </td>
-        <td align="center">
+        <td align="center" width="50">
             <img src="https://avatars.githubusercontent.com/u/52924476?s=280&v=4" alt="Blender" width="25" height="25" /><br>Blender
         </td>
-        <td align="center">
+        <td align="center" width="50">
             <img src="https://www.svgrepo.com/show/508998/zbrush.svg" alt="ZBrush" width="25" height="25" /><br>ZBrush
         </td>
+        <td></td>
 </tr>
 </table>
 </div>
 <br/>
 
-<table>
+<table width="700px">
     <tr>
         <td colspan="2">
             <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rudeevelops&theme=apprentice"/>
