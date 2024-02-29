@@ -24,7 +24,7 @@ CSS in SVGs for Markdown trick: https://github.com/sindresorhus/css-in-readme-li
 
 <picture><img src="media/bio.svg" alt="Daily Log - Rodolfo Fanti" /></picture>
 
-<details open>
+<details>
 <summary>
     <picture>
         <img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" />
