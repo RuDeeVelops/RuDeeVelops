@@ -22,9 +22,9 @@ CSS in SVGs for Markdown trick: https://github.com/sindresorhus/css-in-readme-li
 
 <!---------- SECTION: WHO AM I ---------->
 
-<a href="#" onclick="return false;"><img src="media/bio.svg" alt="Daily Log - Rodolfo Fanti" /></a>
+<picture><img src="media/bio.svg" alt="Daily Log - Rodolfo Fanti" /></picture>
 
-<details>
+<details open>
 <summary>
     <picture>
         <img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" />
@@ -49,7 +49,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 <!---------- SECTION: DIARY ---------->
 
-<a href="#" onclick="return false;"><img src="media/diary.svg" alt="Daily Log - Rodolfo Fanti" /></a>
+<picture><img src="media/diary.svg" alt="Daily Log - Rodolfo Fanti" /></picture>
 
 <details>
 <summary>
@@ -70,7 +70,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 <!---------- SECTION: YOUTUBE ---------->
 
-<a href="#" onclick="return false;"><img src="media/youtube.svg" alt="Daily Log - Rodolfo Fanti" /></a>
+<picture><img src="media/youtube.svg" alt="Daily Log - Rodolfo Fanti" /></picture>
 
 <details>
 <summary>
@@ -94,7 +94,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 <!---------- SECTION: STATS ---------->
 
-<a href="#" onclick="return false;"><img src="media/stats.svg" alt="Daily Log - Rodolfo Fanti" /></a>
+<picture><img src="media/stats.svg" alt="Daily Log - Rodolfo Fanti" /></picture>
 
 <details>
 <summary>
