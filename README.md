@@ -25,8 +25,12 @@ CSS in SVGs for Markdown trick: https://github.com/sindresorhus/css-in-readme-li
 <a href="#" onclick="return false;"><img src="media/bio.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 
 <details>
-<summary><strong><a href="#" onclick="return false;"><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" onclick="return false;" /></a></strong> </summary>
-<br/>
+<summary>
+    <picture>
+        <img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" />
+    </picture>
+</summary>
+</br>
 
 I'm a `3D-sharpened`, `design-infused` Creative Developer.
 
@@ -48,8 +52,12 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 <a href="#" onclick="return false;"><img src="media/diary.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 
 <details>
-<summary><strong><a href="#" onclick="return false;"><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" onclick="return false;" /></a></strong> </summary>
-<br/>
+<summary>
+    <picture>
+        <img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" />
+    </picture>
+</summary>
+</br>
 <!--- GENERATED VIA ACTIONS DON'T EDIT --->
 <!-- START LOG -->
 
@@ -65,8 +73,12 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 <a href="#" onclick="return false;"><img src="media/youtube.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 
 <details>
-<summary><strong><a href="#" onclick="return false;"><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" onclick="return false;" /></a></strong> </summary>
-<br/>
+<summary>
+    <picture>
+        <img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" />
+    </picture>
+</summary>
+</br>
 <!--- GENERATED VIA ACTIONS DON'T EDIT --->
 
 [![Digital Clay's youtube stats](https://youtube-stats-card.vercel.app/api?channelid=UC_JzGeCHnGFHLFWynzX4zhA&title_color=ffffff&icon_color=ffzfff&text_color=ffffff&bg_color=000000&custom_title=Digital%20Clay's%20Youtube)](https://www.youtube.com/channel/UC_JzGeCHnGFHLFWynzX4zhA)
@@ -90,6 +102,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
         <img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" />
     </picture>
 </summary>
+</br>
 <div id="tech">
 <table width="500px">
 <tr>
