@@ -86,9 +86,9 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 <details>
 <summary>
-    <strong>
+    <picture>
         <img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" />
-    </strong>
+    </picture>
 </summary>
 <div id="tech">
 <table width="500px">
