@@ -85,7 +85,11 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 <a href="#" onclick="return false;"><img src="media/stats.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 
 <details>
-<summary><strong><a href="#" onclick="return false;"><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" onclick="return false;" /></a></strong> </summary>
+<summary>
+    <strong>
+        <img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" />
+    </strong>
+</summary>
 <div id="tech">
 <table width="500px">
 <tr>
