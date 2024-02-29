@@ -25,7 +25,7 @@ CSS in SVGs for Markdown trick: https://github.com/sindresorhus/css-in-readme-li
 <a href="#" onclick="return false;"><img src="media/bio.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 
 <details>
-<summary> <strong><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" onclick="return false;" /></strong> </summary>
+<summary><strong><a href="#" onclick="return false;"><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" onclick="return false;" /></a></strong> </summary>
 <br/>
 
 I'm a `3D-sharpened`, `design-infused` Creative Developer.
@@ -48,7 +48,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 <a href="#" onclick="return false;"><img src="media/diary.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 
 <details>
-<summary> <strong><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" onclick="return false;" /></strong> </summary>
+<summary><strong><a href="#" onclick="return false;"><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" onclick="return false;" /></a></strong> </summary>
 <br/>
 <!--- GENERATED VIA ACTIONS DON'T EDIT --->
 <!-- START LOG -->
@@ -65,7 +65,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 <a href="#" onclick="return false;"><img src="media/youtube.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 
 <details>
-<summary> <strong><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" onclick="return false;" /></strong> </summary>
+<summary><strong><a href="#" onclick="return false;"><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" onclick="return false;" /></a></strong> </summary>
 <br/>
 <!--- GENERATED VIA ACTIONS DON'T EDIT --->
 
@@ -85,7 +85,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 <a href="#" onclick="return false;"><img src="media/stats.svg" alt="Daily Log - Rodolfo Fanti" /></a>
 
 <details>
-<summary> <strong><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" onclick="return false;" /></strong> </summary>
+<summary><strong><a href="#" onclick="return false;"><img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" onclick="return false;" /></a></strong> </summary>
 <div id="tech">
 <table width="500px">
 <tr>
