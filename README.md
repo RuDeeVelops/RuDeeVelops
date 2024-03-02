@@ -23,17 +23,17 @@ CSS in SVGs for Markdown trick: https://github.com/sindresorhus/css-in-readme-li
 
 <picture><img src="media/bio.svg" alt="Bio - Rodolfo Fanti" /></picture>
 
-Welcome! I'm Rodolfo Fanti, a `3D-sharpened`, `design-infused` Creative Developer.
+Welcome! I'm **Rodolfo Fanti**, a `3D-sharpened`, `design-infused` Creative Developer.
 
 I worked as a `senior 3d artist` for 15+ films you [probably watched](https://www.imdb.com/name/nm10480418/).
 
-**2024 it's about:** `frontend development` across `design`, `3D`, `UI` and `code`.
+**2024 is about:** `frontend development` across `design`, `3D`, `UI` and `code`.
 
-I launched Digital Clay ( ![Digital Clay's Youtube Subscribers](https://img.shields.io/youtube/channel/subscribers/UC_JzGeCHnGFHLFWynzX4zhA?label=%20&style) subs) to share [the power of digital art](https://youtube.com/digitalclay/).
+I launched **Digital Clay** ( <img valign="middle" src="https://img.shields.io/youtube/channel/subscribers/UC_JzGeCHnGFHLFWynzX4zhA?label=%20&style" alt="Digital Clay's Youtube Subscribers"> subs) to share [the power of digital art](https://youtube.com/digitalclay/).
 
-I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
+I did **a lot of** [Zbrush since 2009](https://rodolfofanti.com/).
 
-👇 Click the buttons below to explore my work. 👇
+👇 **Click the buttons below to explore my work.** 👇
 
 <!---------- SECTION: WHO AM I ENDS---------->
 
