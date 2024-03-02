@@ -17,7 +17,6 @@ CSS in SVGs for Markdown trick: https://github.com/sindresorhus/css-in-readme-li
       <i>P.S. Github doesn't like fancy design, if something is stuck - hit refresh.</i>
 </p>
 <br/>
-<br/>
 <div align="center">
 
 <!---------- SECTION: WHO AM I ---------->
@@ -36,8 +35,6 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 👇 Click the buttons below to explore my work. 👇
 
-<br/>
-<br/>
 <!---------- SECTION: WHO AM I ENDS---------->
 
 <!---------- SECTION: DIARY ---------->
@@ -57,7 +54,6 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 <!-- END LOG -->
 
 </details>
-<br/>
 <br/>
 <!---------- SECTION: DIARY ENDS ---------->
 
@@ -81,7 +77,6 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 <!-- END YOUTUBE-CARDS -->
 
 </details>
-<br/>
 <br/>
 <!---------- SECTION: YOUTUBE ENDS ---------->
 
@@ -169,7 +164,6 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 </table>
 
 </details>
-<br/>
 <br/>
 <!---------- SECTION: STATS ENDS---------->
 
