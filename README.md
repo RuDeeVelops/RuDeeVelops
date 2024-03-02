@@ -55,6 +55,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 </details>
 <br/>
+<br/>
 <!---------- SECTION: DIARY ENDS ---------->
 
 <!---------- SECTION: YOUTUBE ---------->
@@ -77,6 +78,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 <!-- END YOUTUBE-CARDS -->
 
 </details>
+<br/>
 <br/>
 <!---------- SECTION: YOUTUBE ENDS ---------->
 
@@ -164,6 +166,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 </table>
 
 </details>
+<br/>
 <br/>
 <!---------- SECTION: STATS ENDS---------->
 
