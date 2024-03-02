@@ -20,9 +20,26 @@ CSS in SVGs for Markdown trick: https://github.com/sindresorhus/css-in-readme-li
 <br/>
 <div align="center">
 
+Welcome! I'm **Rodolfo Fanti**, a `3D-sharpened`, `design-infused` Creative Developer.
+
+I worked as a `senior 3d artist` for 15+ films you [probably watched](https://www.imdb.com/name/nm10480418/).
+
+**2024 it's about:** `frontend development` across `design`, `3D`, `UI` and `code`.
+
+I launched Digital Clay ( ![Digital Clay's Youtube Subscribers](https://img.shields.io/youtube/channel/subscribers/UC_JzGeCHnGFHLFWynzX4zhA?label=%20&style) subs) to share [the power of digital art](https://youtube.com/digitalclay/).
+
+I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
+
+👇 `Click the buttons below` to explore my work. 👇
+
+</p>
+<br/>
+<br/>
+<div align="center">
+
 <!---------- SECTION: WHO AM I ---------->
 
-<picture><img src="media/bio.svg" alt="Daily Log - Rodolfo Fanti" /></picture>
+<!-- <picture><img src="media/bio.svg" alt="Daily Log - Rodolfo Fanti" /></picture>
 
 <details>
 <summary>
@@ -32,7 +49,7 @@ CSS in SVGs for Markdown trick: https://github.com/sindresorhus/css-in-readme-li
 </summary>
 </br>
 
-I'm a `3D-sharpened`, `design-infused` Creative Developer.
+Welcome! I'm Rodolfo Fanti, a `3D-sharpened`, `design-infused` Creative Developer.
 
 I worked as a `senior 3d artist` for 15+ films you [probably watched](https://www.imdb.com/name/nm10480418/).
 
@@ -44,7 +61,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 </details>
 <br/>
-<br/>
+<br/> -->
 <!---------- SECTION: WHO AM I ENDS---------->
 
 <!---------- SECTION: DIARY ---------->
