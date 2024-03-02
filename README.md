@@ -20,34 +20,9 @@ CSS in SVGs for Markdown trick: https://github.com/sindresorhus/css-in-readme-li
 <br/>
 <div align="center">
 
-Welcome! I'm **Rodolfo Fanti**, a `3D-sharpened`, `design-infused` Creative Developer.
-
-I worked as a `senior 3d artist` for 15+ films you [probably watched](https://www.imdb.com/name/nm10480418/).
-
-**2024 it's about:** `frontend development` across `design`, `3D`, `UI` and `code`.
-
-I launched Digital Clay ( ![Digital Clay's Youtube Subscribers](https://img.shields.io/youtube/channel/subscribers/UC_JzGeCHnGFHLFWynzX4zhA?label=%20&style) subs) to share [the power of digital art](https://youtube.com/digitalclay/).
-
-I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
-
-👇 `Click the buttons below` to explore my work. 👇
-
-</p>
-<br/>
-<br/>
-<div align="center">
-
 <!---------- SECTION: WHO AM I ---------->
 
-<!-- <picture><img src="media/bio.svg" alt="Daily Log - Rodolfo Fanti" /></picture>
-
-<details>
-<summary>
-    <picture>
-        <img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" />
-    </picture>
-</summary>
-</br>
+<picture><img src="media/bio.svg" alt="Bio - Rodolfo Fanti" /></picture>
 
 Welcome! I'm Rodolfo Fanti, a `3D-sharpened`, `design-infused` Creative Developer.
 
@@ -59,25 +34,26 @@ I launched Digital Clay ( ![Digital Clay's Youtube Subscribers](https://img.shie
 
 I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
-</details>
+👇 Click the buttons below to explore my work. 👇
+
 <br/>
-<br/> -->
+<br/>
 <!---------- SECTION: WHO AM I ENDS---------->
 
 <!---------- SECTION: DIARY ---------->
 
-<picture><img src="media/diary.svg" alt="Daily Log - Rodolfo Fanti" /></picture>
+<picture><img src="media/diary.svg" alt="Diary - Rodolfo Fanti" /></picture>
 
 <details>
 <summary>
     <picture>
-        <img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" />
+        <img valign="middle" src="media/button.svg" alt="Button - Rodolfo Fanti" />
     </picture>
 </summary>
 </br>
 <!--- GENERATED VIA ACTIONS DON'T EDIT --->
 <!-- START LOG -->
-<table><tr><td align="center" valign="middle" colspan="2"><p><strong>29-Feb 2024</strong></p><code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code><br/><br/></td></tr><tr><td>🎓 <strong>Learning</strong></td><td>Github Actions and hacking</td></tr><tr><td>🛠️ <strong>Building</strong></td><td><a href="https://x.com/3DRudy/status/1757100457065857474?s=20">this</a> and a gradient generator <strong>top</strong></td></tr><tr><td>🎨 <strong>Daily Design</strong></td><td>N/A</td></tr><tr><td>💡 <strong>Big Challenge</strong></td><td>How to make collapsible buttons in github</td></tr><tr><td>🏆 <strong>Big Solution</strong></td><td>use <code>svg</code>, <code>picture</code> and <code>detail</code></td></tr><tr><td>🌟 <strong>One Cool Find</strong></td><td><a href="https://access.mymind.com/onboard">Mymind.com</a></td></tr><tr><td>💭 <strong>Idea Cloud</strong></td><td><code>rushing</code> <code>relaxing</code></td></tr><tr><td>📝 <strong>Blog Entry</strong></td><td>n/a</td></tr><tr><td>🎥 <strong>YouTube Entry</strong></td><td>n/a</td></tr></table>
+
 <!-- END LOG -->
 
 </details>
@@ -87,12 +63,12 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 <!---------- SECTION: YOUTUBE ---------->
 
-<picture><img src="media/youtube.svg" alt="Daily Log - Rodolfo Fanti" /></picture>
+<picture><img src="media/youtube.svg" alt="Youtube - Rodolfo Fanti" /></picture>
 
 <details>
 <summary>
     <picture>
-        <img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" />
+        <img valign="middle" src="media/button.svg" alt="button - Rodolfo Fanti" />
     </picture>
 </summary>
 </br>
@@ -101,9 +77,7 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 [![Digital Clay's youtube stats](https://youtube-stats-card.vercel.app/api?channelid=UC_JzGeCHnGFHLFWynzX4zhA&title_color=ffffff&icon_color=ffzfff&text_color=ffffff&bg_color=000000&custom_title=Digital%20Clay's%20Youtube)](https://www.youtube.com/channel/UC_JzGeCHnGFHLFWynzX4zhA)
 
 <!-- BEGIN YOUTUBE-CARDS -->
-[![3d Printing an ancient Digital Sculpture in Zbrush #3dprint #zbrush #digitalsculpture](https://ytcards.demolab.com/?id=bJOrFUjrOt4&title=3d+Printing+an+ancient+Digital+Sculpture+in+Zbrush+%233dprint+%23zbrush+%23digitalsculpture&lang=en&timestamp=1704566238&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "3d Printing an ancient Digital Sculpture in Zbrush #3dprint #zbrush #digitalsculpture")](https://www.youtube.com/watch?v=bJOrFUjrOt4)
-[![How to 3D print like a PRO with the CR-10 SE, Zbrush and CopperFill filament! CRAZY PATINA EFFECTS!](https://ytcards.demolab.com/?id=N84DfY6YoRQ&title=How+to+3D+print+like+a+PRO+with+the+CR-10+SE%2C+Zbrush+and+CopperFill+filament%21+CRAZY+PATINA+EFFECTS%21&lang=en&timestamp=1701517071&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "How to 3D print like a PRO with the CR-10 SE, Zbrush and CopperFill filament! CRAZY PATINA EFFECTS!")](https://www.youtube.com/watch?v=N84DfY6YoRQ)
-[![The SECRET to CINEMATIC light in ZBrush - How to ALWAYS make your digital sculptures LOOK beautiful](https://ytcards.demolab.com/?id=TL-0iAVXvTc&title=The+SECRET+to+CINEMATIC+light+in+ZBrush+-+How+to+ALWAYS+make+your+digital+sculptures+LOOK+beautiful&lang=en&timestamp=1699196431&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "The SECRET to CINEMATIC light in ZBrush - How to ALWAYS make your digital sculptures LOOK beautiful")](https://www.youtube.com/watch?v=TL-0iAVXvTc)
+
 <!-- END YOUTUBE-CARDS -->
 
 </details>
@@ -113,12 +87,12 @@ I did a lot of [Zbrush since 2009](https://rodolfofanti.com/).
 
 <!---------- SECTION: STATS ---------->
 
-<picture><img src="media/stats.svg" alt="Daily Log - Rodolfo Fanti" /></picture>
+<picture><img src="media/stats.svg" alt="Stats - Rodolfo Fanti" /></picture>
 
 <details>
 <summary>
     <picture>
-        <img valign="middle" src="media/button.svg" alt="Daily Log - Rodolfo Fanti" />
+        <img valign="middle" src="media/button.svg" alt="button - Rodolfo Fanti" />
     </picture>
 </summary>
 </br>
