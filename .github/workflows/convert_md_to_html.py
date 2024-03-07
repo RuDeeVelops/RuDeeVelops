@@ -23,11 +23,11 @@ year = re.search(r'## 📅 (\d{4})', md_text).group(1)
 # Extract the latest log entry
 latest_entry = re.search(r'- #### (\d{2}-\w{3}.*?)(?=- #### \d{2}-\w{3}|<details close>)', md_text, re.DOTALL).group(1)
 
-# Find date
-date = latest_entry.split(' || ')[0]
+# Split the latest entry into the date and the log entries
+date, log_entries = latest_entry.split('\n', 1)
 
-# Convert the latest log entry to HTML
-html = markdown.markdown(latest_entry)
+# Convert the log entries to HTML
+html = markdown.markdown(log_entries)
 
 # Parse HTML
 soup = BeautifulSoup(html, 'html.parser')
@@ -36,6 +36,7 @@ soup = BeautifulSoup(html, 'html.parser')
 rows = [
     f'<tr><td align="center" valign="middle" colspan="2"><p><strong>{date} {year}</strong></p><code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code><br/><br/></td></tr>'
 ]
+
 
 # Define the left part of the table
 left_parts = [
