@@ -50,7 +50,19 @@ I did **a lot of** [Zbrush since 2009](https://rodolfofanti.com/).
 </br>
 <!--- GENERATED VIA ACTIONS DON'T EDIT --->
 <!-- START LOG -->
-<table><tr><td align="center" valign="middle" colspan="2"><p><strong>29-Feb 2024</strong></p><code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code><br/><br/></td></tr><tr><td>🎓 <strong>Learning</strong></td><td>Github Actions and hacks</td></tr><tr><td>🛠️ <strong>Building</strong></td><td><a href="https://x.com/3DRudy/status/1757100457065857474?s=20">this</a> and a gradient generator <strong>top</strong></td></tr><tr><td>🎨 <strong>Daily Design</strong></td><td>N/A</td></tr><tr><td>💡 <strong>Big Challenge</strong></td><td>How to make collapsible buttons in github</td></tr><tr><td>🏆 <strong>Big Solution</strong></td><td>use <code>svg</code>, <code>picture</code> and <code>detail</code></td></tr><tr><td>🌟 <strong>One Cool Find</strong></td><td><a href="https://access.mymind.com/onboard">Mymind.com</a></td></tr><tr><td>💭 <strong>Idea Cloud</strong></td><td><code>rushing</code> <code>relaxing</code></td></tr><tr><td>📝 <strong>Blog Entry</strong></td><td>n/a</td></tr><tr><td>🎥 <strong>YouTube Entry</strong></td><td>n/a</td></tr></table>
+<table><tr><td align="center" valign="middle" colspan="2"><p><strong>07-Mar
+
+  - 🎓 **Learning ||** Scrimba Frontend Path
+  - 🛠️ **Building ||** N/A
+  - 🎨 **Daily Design ||** [Vaporwave 1 CSS](https://dribbble.com/shots/23786021-Daily-CSS-Sketch-Vaporwave-1)
+  - 💡 **Big Challenge ||** How to create a sense of depth in CSS
+  - 🏆 **Big Solution ||** use `box-shadow` `inset`
+  - 🌟 **One Cool Find ||** https://0xca0a.gumroad.com/l/B4N4N4S
+  - 💭 **Idea Cloud ||** `curiosity is power`
+  - 📝 **Blog Entry ||** n/a
+  - 🎥 **YouTube Entry ||** n/a
+
+ 2024</strong></p><code>updates automagically from <a href="https://github.com/rudeevelops/creativedev-log">creativedev-log</a></code><br/><br/></td></tr><tr><td>🎓 <strong>Learning</strong></td><td>Scrimba Frontend Path</td></tr><tr><td>🛠️ <strong>Building</strong></td><td>N/A</td></tr><tr><td>🎨 <strong>Daily Design</strong></td><td><a href="https://dribbble.com/shots/23786021-Daily-CSS-Sketch-Vaporwave-1">Vaporwave 1 CSS</a></td></tr><tr><td>💡 <strong>Big Challenge</strong></td><td>How to create a sense of depth in CSS</td></tr><tr><td>🏆 <strong>Big Solution</strong></td><td>use <code>box-shadow</code> <code>inset</code></td></tr><tr><td>🌟 <strong>One Cool Find</strong></td><td>https://0xca0a.gumroad.com/l/B4N4N4S</td></tr><tr><td>💭 <strong>Idea Cloud</strong></td><td><code>curiosity is power</code></td></tr><tr><td>📝 <strong>Blog Entry</strong></td><td>n/a</td></tr><tr><td>🎥 <strong>YouTube Entry</strong></td><td>n/a</td></tr></table>
 <!-- END LOG -->
 
 </details>
