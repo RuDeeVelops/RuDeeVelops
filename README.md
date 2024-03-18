@@ -11,6 +11,8 @@ Gitprofile Summary Cards: https://github-profile-summary-cards.vercel.app/demo.h
 Github Activity: https://github.com/jamesgeorge007/github-activity-readme
 CSS in SVGs for Markdown trick: https://github.com/sindresorhus/css-in-readme-like-wat/blob/main/header.svg -->
 
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FRuDeeVelops%2FRuDeeVelops%2F&labelColor=%23000000&countColor=%23d9e3f0)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FRuDeeVelops%2FRuDeeVelops%2F)&nbsp;&nbsp;&nbsp;&nbsp;
+
 <p align="center">
     <img src="media/loopingGittyMenu_RodolfoFanti.gif" alt="Alt text"><br/>
     <i>Wanna play with the animation? <a href="https://9rq8hp.csb.app/">Click here!</a> Oh and this is <a href="https://github.com/RuDeeVelops/Gitty---JS-Rive-character-menu">how I made it in Rive and JS.</a></i><br/>
