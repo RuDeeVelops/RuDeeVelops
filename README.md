@@ -76,7 +76,9 @@ I did **a lot of** [Zbrush since 2009](https://rodolfofanti.com/).
 [![Digital Clay's youtube stats](https://youtube-stats-card.vercel.app/api?channelid=UC_JzGeCHnGFHLFWynzX4zhA&title_color=ffffff&icon_color=ffzfff&text_color=ffffff&bg_color=000000&custom_title=Digital%20Clay's%20Youtube)](https://www.youtube.com/channel/UC_JzGeCHnGFHLFWynzX4zhA)
 
 <!-- BEGIN YOUTUBE-CARDS -->
-
+[![Create a 2D game CHARACTER animation in RIVE / Midjourney - FULL TUTORIAL mesh, rig, nested artboard](https://ytcards.demolab.com/?id=WSw02QGOOdI&title=Create+a+2D+game+CHARACTER+animation+in+RIVE+%2F+Midjourney+-+FULL+TUTORIAL+mesh%2C+rig%2C+nested+artboard&lang=en&timestamp=1709569303&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "Create a 2D game CHARACTER animation in RIVE / Midjourney - FULL TUTORIAL mesh, rig, nested artboard")](https://www.youtube.com/watch?v=WSw02QGOOdI)
+[![3d Printing an ancient Digital Sculpture in Zbrush #3dprint #zbrush #digitalsculpture](https://ytcards.demolab.com/?id=bJOrFUjrOt4&title=3d+Printing+an+ancient+Digital+Sculpture+in+Zbrush+%233dprint+%23zbrush+%23digitalsculpture&lang=en&timestamp=1704566238&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "3d Printing an ancient Digital Sculpture in Zbrush #3dprint #zbrush #digitalsculpture")](https://www.youtube.com/watch?v=bJOrFUjrOt4)
+[![How to 3D print like a PRO with the CR-10 SE, Zbrush and CopperFill filament! CRAZY PATINA EFFECTS!](https://ytcards.demolab.com/?id=N84DfY6YoRQ&title=How+to+3D+print+like+a+PRO+with+the+CR-10+SE%2C+Zbrush+and+CopperFill+filament%21+CRAZY+PATINA+EFFECTS%21&lang=en&timestamp=1701517071&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "How to 3D print like a PRO with the CR-10 SE, Zbrush and CopperFill filament! CRAZY PATINA EFFECTS!")](https://www.youtube.com/watch?v=N84DfY6YoRQ)
 <!-- END YOUTUBE-CARDS -->
 
 </details>
