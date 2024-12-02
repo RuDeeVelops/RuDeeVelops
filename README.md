@@ -25,11 +25,11 @@ CSS in SVGs for Markdown trick: https://github.com/sindresorhus/css-in-readme-li
 
 <picture><img src="media/bio.svg" alt="Bio - Rodolfo Fanti" /></picture>
 
-Welcome! I'm **Rodolfo Fanti**, a `design-infused` UI Engineer and Frontend Developer.
+Welcome! I'm **Rodolfo Fanti**, a `design-infused` Senior 3D Artist, Designer and Creative Technologist.
 
 Previously, I worked as a `senior 3d artist` for 15+ films you [probably watched](https://www.imdb.com/name/nm10480418/).
 
-**2024 is about:** `frontend development` across `design`, `3D`, `UI` and `code`.
+**2024 is about:** `UI and Development` across `design`, `3D`, and `code`.
 
 I launched **Digital Clay** ( <img valign="middle" src="https://img.shields.io/youtube/channel/subscribers/UC_JzGeCHnGFHLFWynzX4zhA?label=%20&style" alt="Digital Clay's Youtube Subscribers"> subs) to share [the power of digital art](https://youtube.com/digitalclay/).
 
